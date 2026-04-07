@@ -1,0 +1,15 @@
+feeds:
+  # 政治・経済
+  - https://assets.wor.jp/rss/rdf/bloomberg/top.rdf
+  - https://assets.wor.jp/rss/rdf/reuters/top.rdf
+  - https://assets.wor.jp/rss/rdf/bloomberg/markets.rdf
+
+  # セキュリティ
+  - http://www.jpcert.or.jp/rss/jpcert.rdf
+  - http://jvn.jp/rss/jvnJP.rdf
+
+  # テック
+  - http://gigazine.net/index.php?/news/rss_2.0/
+  - https://news.ycombinator.com/rss
+  - http://qiita.com/popular-items/feed
+  - http://zenn.dev/feed
