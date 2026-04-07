@@ -3,10 +3,9 @@
 RSSフィードを取得して articles/YYYY-MM-DD/ にmarkdownとして保存する。
 """
 
-import os
 import re
 import sys
-import hashlib
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -17,16 +16,9 @@ JST = timezone(timedelta(hours=9))
 
 
 def slugify(text: str) -> str:
-    """タイトルをファイル名用スラッグに変換する。"""
     text = re.sub(r"[^\w\s-]", "", text)
     text = re.sub(r"[\s_-]+", "_", text)
-    text = text.strip("_")
-    return text[:50]
-
-
-def url_hash(url: str) -> str:
-    """URLの短縮ハッシュを返す（重複チェック用）。"""
-    return hashlib.md5(url.encode()).hexdigest()[:8]
+    return text.strip("_")[:50]
 
 
 def load_feeds(feeds_path: Path) -> list[str]:
@@ -36,67 +28,77 @@ def load_feeds(feeds_path: Path) -> list[str]:
 
 
 def load_existing_urls(date_dir: Path) -> set[str]:
-    """既存記事のURLセットを返す（重複スキップ用）。"""
+    """既存記事のURLセットを返す（重複スキップ用）。フロントマターのみ読む。"""
     existing = set()
     for md_file in date_dir.glob("*.md"):
-        content = md_file.read_text()
-        for line in content.splitlines():
-            if line.startswith("url:"):
-                url = line.replace("url:", "").strip()
-                existing.add(url)
+        lines = md_file.read_text().splitlines()
+        # フロントマターブロック（--- から次の --- まで）だけをパース
+        if lines and lines[0].strip() == "---":
+            try:
+                end = lines.index("---", 1)
+                fm = yaml.safe_load("\n".join(lines[1:end]))
+                if fm and "url" in fm:
+                    existing.add(fm["url"])
+            except (ValueError, yaml.YAMLError):
+                pass
     return existing
 
 
 def make_raw_markdown(title: str, url: str, date: str, description: str) -> str:
-    return f"""---
-title: {title}
-url: {url}
-date: {date}
----
+    frontmatter = yaml.dump(
+        {"title": title, "url": url, "date": date},
+        allow_unicode=True,
+        default_flow_style=False,
+    ).rstrip()
+    return f"---\n{frontmatter}\n---\n\n{description}\n"
 
-{description}
-"""
+
+def fetch_feed(feed_url: str) -> tuple[str, feedparser.FeedParserDict | None]:
+    feed = feedparser.parse(feed_url)
+    if feed.bozo and not feed.entries:
+        return feed_url, None
+    return feed_url, feed
 
 
 def fetch_all_feeds(feed_urls: list[str], date_dir: Path, today: str) -> int:
     existing_urls = load_existing_urls(date_dir)
     counter_file = date_dir / ".counter"
-    start = int(counter_file.read_text()) if counter_file.exists() else 1
+    try:
+        count = int(counter_file.read_text())
+    except FileNotFoundError:
+        count = 1
 
-    count = start
-    saved = 0
+    start = count
+    try:
+        with ThreadPoolExecutor(max_workers=8) as executor:
+            futures = {executor.submit(fetch_feed, url): url for url in feed_urls}
+            for future in as_completed(futures):
+                feed_url, feed = future.result()
+                if feed is None:
+                    print(f"  ERROR: {feed_url}", file=sys.stderr)
+                    continue
 
-    for feed_url in feed_urls:
-        print(f"Fetching: {feed_url}")
-        try:
-            feed = feedparser.parse(feed_url)
-        except Exception as e:
-            print(f"  ERROR: {e}", file=sys.stderr)
-            continue
+                print(f"Fetched: {feed_url} ({len(feed.entries)} entries)")
+                for entry in feed.entries:
+                    url = entry.get("link", "")
+                    title = entry.get("title", "no title")
+                    description = entry.get("summary", "")
 
-        for entry in feed.entries:
-            url = entry.get("link", "")
-            title = entry.get("title", "no title")
-            description = entry.get("summary", "")
+                    if not url or url in existing_urls:
+                        continue
 
-            if not url:
-                continue
-            if url in existing_urls:
-                print(f"  SKIP (duplicate): {title}")
-                continue
+                    slug = slugify(title)
+                    filename = f"{count:03d}_raw_{slug}.md"
+                    (date_dir / filename).write_text(
+                        make_raw_markdown(title, url, today, description)
+                    )
+                    existing_urls.add(url)
+                    print(f"  SAVED: {filename}")
+                    count += 1
+    finally:
+        counter_file.write_text(str(count))
 
-            slug = slugify(title)
-            filename = f"{count:03d}_raw_{slug}.md"
-            filepath = date_dir / filename
-
-            filepath.write_text(make_raw_markdown(title, url, today, description))
-            existing_urls.add(url)
-            print(f"  SAVED: {filename}")
-            count += 1
-            saved += 1
-
-    counter_file.write_text(str(count))
-    return saved
+    return count - start
 
 
 def main():
