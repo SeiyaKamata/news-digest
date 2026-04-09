@@ -1,0 +1,8 @@
+---
+title: イラン、米との交渉に一層慎重　停戦後も不信感根強く＝国連大使
+url: https://jp.reuters.com/world/us/RTOAQTTOBJMHVAFXTHER4DR4TU-2026-04-08/
+date: 2026-04-09
+---
+
+## 要約
+- イラン、米との交渉に一層慎重　停戦後も不信感根強く＝国連大使

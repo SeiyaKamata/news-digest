@@ -1,0 +1,8 @@
+---
+title: ブルー・アウルのプライベートクレジット、格付け見通し引き下げ
+url: https://www.bloomberg.com/jp/news/articles/2026-04-08/TD5P4SKJH6V400?srnd=jp-markets
+date: 2026-04-09
+---
+
+## 要約
+- ブルー・アウルのプライベートクレジット、格付け見通し引き下げ

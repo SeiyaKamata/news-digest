@@ -1,0 +1,8 @@
+---
+title: パキスタン首相「停戦違反は和平損なう」、自制呼びかけ
+url: https://jp.reuters.com/world/security/BTUYGOYB4FK4PIPKAP2INRZGEM-2026-04-08/
+date: 2026-04-09
+---
+
+## 要約
+- パキスタン首相「停戦違反は和平損なう」、自制呼びかけ

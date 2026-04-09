@@ -1,0 +1,8 @@
+---
+title: 独首相、トランプ氏と電話会談　米イラン停戦合意受け＝関係筋
+url: https://jp.reuters.com/markets/commodities/JKZ7ZUWF4RLPHNGMPEPYTV6GTI-2026-04-08/
+date: 2026-04-09
+---
+
+## 要約
+- 独首相、トランプ氏と電話会談　米イラン停戦合意受け＝関係筋
