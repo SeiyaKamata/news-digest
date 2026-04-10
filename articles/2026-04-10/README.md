@@ -1,0 +1,303 @@
+# 2026-04-10
+
+## 🔴 精読
+- [独自イラン核物質どこに、誰も確認できずと当局者－米国は所在把握と主張](001_read_独自イラン核物質どこに誰も確認できずと当局者米国は所在把握と主張.md) — 独自イラン核物質どこに、誰も確認できずと当局者－米国は所在把握と主張
+- [ドルと原油の相関強まる、イラン戦争の影響で過去最高水準に接近](002_read_ドルと原油の相関強まるイラン戦争の影響で過去最高水準に接近.md) — ドルと原油の相関強まる、イラン戦争の影響で過去最高水準に接近
+- [米株が上げに転じる、イスラエルがレバノンと直接交渉－158円台後半](003_read_米株が上げに転じるイスラエルがレバノンと直接交渉158円台後半.md) — 米株が上げに転じる、イスラエルがレバノンと直接交渉－158円台後半
+- [米新規失業保険申請件数、前週比1.6万件増の21.9万件－予想21万件](004_read_米新規失業保険申請件数前週比16万件増の219万件予想21万件.md) — 米新規失業保険申請件数、前週比1.6万件増の21.9万件－予想21万件
+- [中東情勢緊迫化で日本の消費者マインドが落ち込み－コロナ禍後で最大](007_read_中東情勢緊迫化で日本の消費者マインドが落ち込みコロナ禍後で最大.md) — 中東情勢緊迫化で日本の消費者マインドが落ち込み－コロナ禍後で最大
+- [イラン巡り原油･米株先物に不審な動き、米議員が調査要請－SECなどに](008_read_イラン巡り原油米株先物に不審な動き米議員が調査要請SECなどに.md) — イラン巡り原油･米株先物に不審な動き、米議員が調査要請－SECなどに
+- [植田日銀総裁、実質金利はっきりマイナス－緩和環境維持されている](010_read_植田日銀総裁実質金利はっきりマイナス緩和環境維持されている.md) — 植田日銀総裁、実質金利はっきりマイナス－緩和環境維持されている
+- [Reverse engineering Gemini's SynthID detection](012_read_Reverse_engineering_Geminis_SynthID_detection.md) — Reverse engineering Gemini's SynthID detection
+- [Hegel, a universal property-based testing protocol and family of PBT libraries](016_read_Hegel_a_universal_property_based_testing_protocol_.md) — Hegel, a universal property-based testing protocol and famil
+- [How Microsoft Abuses Its Users](019_read_How_Microsoft_Abuses_Its_Users.md) — How Microsoft Abuses Its Users
+- [Show HN: I built a Cargo-like build tool for C/C++](021_read_Show_HN_I_built_a_Cargo_like_build_tool_for_CC.md) — Show HN: I built a Cargo-like build tool for C/C++
+- [Maine is about to become the first state to ban major new data centers](023_read_Maine_is_about_to_become_the_first_state_to_ban_ma.md) — Maine is about to become the first state to ban major new da
+- [EFF is leaving X](025_read_EFF_is_leaving_X.md) — EFF is leaving X
+- [Show HN: Druids – Build your own software factory](026_read_Show_HN_Druids_Build_your_own_software_factory.md) — Show HN: Druids – Build your own software factory
+- [Bitmap fonts make computers feel like computers again](027_read_Bitmap_fonts_make_computers_feel_like_computers_ag.md) — Bitmap fonts make computers feel like computers again
+- [A WebGPU implementation of Augmented Vertex Block Descent](030_read_A_WebGPU_implementation_of_Augmented_Vertex_Block_.md) — A WebGPU implementation of Augmented Vertex Block Descent
+- [How Do You Find an Illegal Image Without Looking at It?](031_read_How_Do_You_Find_an_Illegal_Image_Without_Looking_a.md) — How Do You Find an Illegal Image Without Looking at It?
+- [Netflix Prices Went Up Again – I Bought a DVD Player Instead](033_read_Netflix_Prices_Went_Up_Again_I_Bought_a_DVD_Player.md) — Netflix Prices Went Up Again – I Bought a DVD Player Instead
+- [Meta removes ads for social media addiction litigation](035_read_Meta_removes_ads_for_social_media_addiction_litiga.md) — Meta removes ads for social media addiction litigation
+- [Open source security at Astral](038_read_Open_source_security_at_Astral.md) — Open source security at Astral
+- [Help Keep Thunderbird Alive](039_read_Help_Keep_Thunderbird_Alive.md) — Help Keep Thunderbird Alive
+- [Building a framework-agnostic Ruby gem (and making sure it doesn't break)](040_read_Building_a_framework_agnostic_Ruby_gem_and_making_.md) — Building a framework-agnostic Ruby gem (and making sure it d
+- [Claude in Chromeの活用事例8選｜サブスク範囲でブラウザ自動化できるんやで](041_read_Claude_in_Chromeの活用事例8選サブスク範囲でブラウザ自動化できるんやで.md) — Claude in Chromeの活用事例8選｜サブスク範囲でブラウザ自動化できるんやで
+- [PMが本来やるべき仕事の時間を取り戻す — Claude Codeで変わった3つのPM業務](045_read_PMが本来やるべき仕事の時間を取り戻す_Claude_Codeで変わった3つのPM業務.md) — PMが本来やるべき仕事の時間を取り戻す — Claude Codeで変わった3つのPM業務
+- [仕様書は"使い捨て"にした方がうまくいった——仕様駆動開発3ヶ月の転換](047_read_仕様書は使い捨てにした方がうまくいった仕様駆動開発3ヶ月の転換.md) — 仕様書は"使い捨て"にした方がうまくいった——仕様駆動開発3ヶ月の転換
+- [VSCode拡張機能から考える、サプライチェーン攻撃の身近さ](048_read_VSCode拡張機能から考えるサプライチェーン攻撃の身近さ.md) — VSCode拡張機能から考える、サプライチェーン攻撃の身近さ
+- [エージェント開発の参考に！GitHub Copilotのシステムプロンプトを見てみよう](050_read_エージェント開発の参考にGitHub_Copilotのシステムプロンプトを見てみよう.md) — エージェント開発の参考に！GitHub Copilotのシステムプロンプトを見てみよう
+- [RAGとAgentic Searchの戦争を 終わらせに来た!!!](052_read_RAGとAgentic_Searchの戦争を_終わらせに来た.md) — RAGとAgentic Searchの戦争を 終わらせに来た!!!
+- [社内業務をAIに開放 — 自社MCPサーバー群一挙公開！](054_read_社内業務をAIに開放_自社MCPサーバー群一挙公開.md) — 社内業務をAIに開放 — 自社MCPサーバー群一挙公開！
+- [GitHub Copilot CLIを"タダ"で体系的に学べるコースをやってみた](055_read_GitHub_Copilot_CLIをタダで体系的に学べるコースをやってみた.md) — GitHub Copilot CLIを"タダ"で体系的に学べるコースをやってみた
+- [脆弱性対応と minimumReleaseAge を両立しながら依存管理をクリーンに保つ](056_read_脆弱性対応と_minimumReleaseAge_を両立しながら依存管理をクリーンに保つ.md) — 脆弱性対応と minimumReleaseAge を両立しながら依存管理をクリーンに保つ
+- [こんなAI時代に、新しいCSS設計フレームワークを作る理由](057_read_こんなAI時代に新しいCSS設計フレームワークを作る理由.md) — こんなAI時代に、新しいCSS設計フレームワークを作る理由
+- [全PRの83%をAIレビューだけでマージできるようにした](059_read_全PRの83をAIレビューだけでマージできるようにした.md) — 全PRの83%をAIレビューだけでマージできるようにした
+- [脱・セキュリティ初心者。現場の信頼を勝ち取るための「3つの原則」と「1つの習慣」](062_read_脱セキュリティ初心者現場の信頼を勝ち取るための3つの原則と1つの習慣.md) — 脱・セキュリティ初心者。現場の信頼を勝ち取るための「3つの原則」と「1つの習慣」
+- [自作の短縮URLを社内Slackに貼ったら「フィッシングです」とセキュリティチームに通報された](064_read_自作の短縮URLを社内Slackに貼ったらフィッシングですとセキュリティチームに通報された.md) — 自作の短縮URLを社内Slackに貼ったら「フィッシングです」とセキュリティチームに通報された
+- [国産LLM「LLM-jp-4」が日本語MT-BenchでGPT-4oを上回った ── 技術的背景と実用性を検証する](070_read_国産LLMLLM_jp_4が日本語MT_BenchでGPT_4oを上回った_技術的背景と実用性を検証.md) — 国産LLM「LLM-jp-4」が日本語MT-BenchでGPT-4oを上回った ── 技術的背景と実用性を検証する
+- [仕様駆動開発は、ウォーターフォールへの回帰ではない。](071_read_仕様駆動開発はウォーターフォールへの回帰ではない.md) — 仕様駆動開発は、ウォーターフォールへの回帰ではない。
+- [日本発、LLMの推論を「桁違い」に効率化する新アーキテクチャ「PHOTON」の論文が面白かったのでまとめてみた](072_read_日本発LLMの推論を桁違いに効率化する新アーキテクチャPHOTONの論文が面白かったのでまとめてみた.md) — 日本発、LLMの推論を「桁違い」に効率化する新アーキテクチャ「PHOTON」の論文が面白かったのでまとめてみた
+- [前編：Claude Codeで便利だと感じた点（概要・考え方）](075_read_前編Claude_Codeで便利だと感じた点概要考え方.md) — 前編：Claude Codeで便利だと感じた点（概要・考え方）
+- [後編：Claude Codeで便利だと感じた点（使い方）](078_read_後編Claude_Codeで便利だと感じた点使い方.md) — 後編：Claude Codeで便利だと感じた点（使い方）
+- [AIエージェントの仕組みと振る舞いを整理してみた](080_read_AIエージェントの仕組みと振る舞いを整理してみた.md) — AIエージェントの仕組みと振る舞いを整理してみた
+- [GitHub Copilot CLI の公式ハンズオンざっくり和訳 (第3章/7章) 開発ワークフロー編](089_read_GitHub_Copilot_CLI_の公式ハンズオンざっくり和訳_第3章7章_開発ワークフロー編.md) — GitHub Copilot CLI の公式ハンズオンざっくり和訳 (第3章/7章) 開発ワークフロー編
+- [OpenLiteSpeedおよびLSWS EnterpriseにおけるOSコマンドインジェクションの脆弱性](104_read_OpenLiteSpeedおよびLSWS_EnterpriseにおけるOSコマンドインジェクションの.md) — OpenLiteSpeedおよびLSWS EnterpriseにおけるOSコマンドインジェクションの脆弱性
+- [FileZenにおけるOSコマンドインジェクションの脆弱性](117_read_FileZenにおけるOSコマンドインジェクションの脆弱性.md) — FileZenにおけるOSコマンドインジェクションの脆弱性
+- [Sonatype Nexus Repositoryにおけるサーバサイドリクエストフォージェリの脆弱性](127_read_Sonatype_Nexus_Repositoryにおけるサーバサイドリクエストフォージェリの脆弱性.md) — Sonatype Nexus Repositoryにおけるサーバサイドリクエストフォージェリの脆弱性
+- [raspap-webguiにおけるOSコマンドインジェクションの脆弱性](128_read_raspap_webguiにおけるOSコマンドインジェクションの脆弱性.md) — raspap-webguiにおけるOSコマンドインジェクションの脆弱性
+- [Ruijie Networks製AP180シリーズにおけるOSコマンドインジェクションの脆弱性](133_read_Ruijie_Networks製AP180シリーズにおけるOSコマンドインジェクションの脆弱性.md) — Ruijie Networks製AP180シリーズにおけるOSコマンドインジェクションの脆弱性
+- [複数のセイコーエプソン製プリンターのWeb Configにおけるスタックベースのバッファオーバーフローの脆弱性](142_read_複数のセイコーエプソン製プリンターのWeb_Configにおけるスタックベースのバッファオーバーフロ.md) — 複数のセイコーエプソン製プリンターのWeb Configにおけるスタックベースのバッファオーバーフローの脆弱性
+- [QNDにおける権限昇格の脆弱性](143_read_QNDにおける権限昇格の脆弱性.md) — QNDにおける権限昇格の脆弱性
+- [スマートフォンアプリ「FOD」 におけるハードコードされた暗号鍵使用の脆弱性](152_read_スマートフォンアプリFOD_におけるハードコードされた暗号鍵使用の脆弱性.md) — スマートフォンアプリ「FOD」 におけるハードコードされた暗号鍵使用の脆弱性
+- [NCP-HG100におけるOSコマンドインジェクションの脆弱性](156_read_NCP_HG100におけるOSコマンドインジェクションの脆弱性.md) — NCP-HG100におけるOSコマンドインジェクションの脆弱性
+- [CLUSTERPRO XおよびEXPRESSCLUSTER XにおけるOSコマンドインジェクションの脆弱性](159_read_CLUSTERPRO_XおよびEXPRESSCLUSTER_XにおけるOSコマンドインジェクションの.md) — CLUSTERPRO XおよびEXPRESSCLUSTER XにおけるOSコマンドインジェクションの脆弱性
+- [Progress Flowmonにおける認証後に実行されるOSコマンドインジェクションの脆弱性](163_read_Progress_Flowmonにおける認証後に実行されるOSコマンドインジェクションの脆弱性.md) — Progress Flowmonにおける認証後に実行されるOSコマンドインジェクションの脆弱性
+- [プラネックス製MZK-DP300Nにおけるハードコードされた認証情報の使用の脆弱性](165_read_プラネックス製MZK_DP300Nにおけるハードコードされた認証情報の使用の脆弱性.md) — プラネックス製MZK-DP300Nにおけるハードコードされた認証情報の使用の脆弱性
+- [Phoenix Contact CHARX SEC-3xxxにおけるコードインジェクションの脆弱性](176_read_Phoenix_Contact_CHARX_SEC_3xxxにおけるコードインジェクションの脆弱性.md) — Phoenix Contact CHARX SEC-3xxxにおけるコードインジェクションの脆弱性
+- [DataSpider ServistaにおけるXML外部実体参照（XXE）に関する脆弱性](180_read_DataSpider_ServistaにおけるXML外部実体参照XXEに関する脆弱性.md) — DataSpider ServistaにおけるXML外部実体参照（XXE）に関する脆弱性
+- [セイコーソリューションズ製SkyBridge BASIC MB-A130におけるOSコマンドインジェクションの脆弱性](191_read_セイコーソリューションズ製SkyBridge_BASIC_MB_A130におけるOSコマンドインジェ.md) — セイコーソリューションズ製SkyBridge BASIC MB-A130におけるOSコマンドインジェクションの脆弱性
+- [ScanSnap Managerのインストーラにおける権限昇格につながる脆弱性](195_read_ScanSnap_Managerのインストーラにおける権限昇格につながる脆弱性.md) — ScanSnap Managerのインストーラにおける権限昇格につながる脆弱性
+- [ZXHN-F660TおよびZXHN-F660Aに機器共通の認証情報が設定されている問題](204_read_ZXHN_F660TおよびZXHN_F660Aに機器共通の認証情報が設定されている問題.md) — ZXHN-F660TおよびZXHN-F660Aに機器共通の認証情報が設定されている問題
+- [ゼクセロン製ZWX-2000CSW2-HN、ZWX-2000CS2-HNにおけるハードコードされた認証情報の使用の脆弱性](210_read_ゼクセロン製ZWX_2000CSW2_HNZWX_2000CS2_HNにおけるハードコードされた認証.md) — ゼクセロン製ZWX-2000CSW2-HN、ZWX-2000CS2-HNにおけるハードコードされた認証情報の使用の脆弱性
+- [KAON製KCM3100における代替パスを使用した認証回避の脆弱性](218_read_KAON製KCM3100における代替パスを使用した認証回避の脆弱性.md) — KAON製KCM3100における代替パスを使用した認証回避の脆弱性
+- [Pgpool-IIにおける認証回避の脆弱性](227_read_Pgpool_IIにおける認証回避の脆弱性.md) — Pgpool-IIにおける認証回避の脆弱性
+- [複数のi-PRO設定ツールにおけるハードコードされた暗号鍵の使用の脆弱性](230_read_複数のi_PRO設定ツールにおけるハードコードされた暗号鍵の使用の脆弱性.md) — 複数のi-PRO設定ツールにおけるハードコードされた暗号鍵の使用の脆弱性
+- [Active! mailにおけるスタックベースのバッファオーバーフローの脆弱性](231_read_Active_mailにおけるスタックベースのバッファオーバーフローの脆弱性.md) — Active! mailにおけるスタックベースのバッファオーバーフローの脆弱性
+- [ＮＹ外為市場＝ドル弱含み、米イラン停戦維持を注視](233_read_ＮＹ外為市場ドル弱含み米イラン停戦維持を注視.md) — ＮＹ外為市場＝ドル弱含み、米イラン停戦維持を注視
+- [米国株式市場＝続伸、中東和平交渉への期待感で](234_read_米国株式市場続伸中東和平交渉への期待感で.md) — 米国株式市場＝続伸、中東和平交渉への期待感で
+- [イスラエル首相、レバノンとの和平交渉開始指示　米で来週開催](235_read_イスラエル首相レバノンとの和平交渉開始指示_米で来週開催.md) — イスラエル首相、レバノンとの和平交渉開始指示　米で来週開催
+- [イラン最高指導者、ホルムズ海峡管理「新段階」と表明　攻撃には報復](236_read_イラン最高指導者ホルムズ海峡管理新段階と表明_攻撃には報復.md) — イラン最高指導者、ホルムズ海峡管理「新段階」と表明　攻撃には報復
+- [ロシアがイースター停戦表明、11─12日　ウクライナの履行前提](237_read_ロシアがイースター停戦表明1112日_ウクライナの履行前提.md) — ロシアがイースター停戦表明、11─12日　ウクライナの履行前提
+- [独首相「ＮＡＴＯ分裂望まず」、ホルムズ安全確保に協力の用意](238_read_独首相ＮＡＴＯ分裂望まずホルムズ安全確保に協力の用意.md) — 独首相「ＮＡＴＯ分裂望まず」、ホルムズ安全確保に協力の用意
+- [国連特使がイラン訪問、外務次官と会談　戦闘終結の道筋など協議](239_read_国連特使がイラン訪問外務次官と会談_戦闘終結の道筋など協議.md) — 国連特使がイラン訪問、外務次官と会談　戦闘終結の道筋など協議
+- [ロシア大統領特使が訪米、ウクライナ和平や経済協力巡り協議＝関係筋](240_read_ロシア大統領特使が訪米ウクライナ和平や経済協力巡り協議関係筋.md) — ロシア大統領特使が訪米、ウクライナ和平や経済協力巡り協議＝関係筋
+- [トランプ氏、欧州駐留米軍の一部撤収を検討　ＮＡＴＯと関係悪化＝米高官](241_read_トランプ氏欧州駐留米軍の一部撤収を検討_ＮＡＴＯと関係悪化米高官.md) — トランプ氏、欧州駐留米軍の一部撤収を検討　ＮＡＴＯと関係悪化＝米高官
+- [ＩＭＦ、世界成長率を下方修正へ　金融支援需要は最大500億ドル](243_read_ＩＭＦ世界成長率を下方修正へ_金融支援需要は最大500億ドル.md) — ＩＭＦ、世界成長率を下方修正へ　金融支援需要は最大500億ドル
+- [ＮＡＴＯ、対イラン作戦で米要請に対応　当初支援遅れも＝事務総長](244_read_ＮＡＴＯ対イラン作戦で米要請に対応_当初支援遅れも事務総長.md) — ＮＡＴＯ、対イラン作戦で米要請に対応　当初支援遅れも＝事務総長
+- [レバノン国連平和維持要員への攻撃を非難、ＥＵと63カ国が共同声明](245_read_レバノン国連平和維持要員への攻撃を非難ＥＵと63カ国が共同声明.md) — レバノン国連平和維持要員への攻撃を非難、ＥＵと63カ国が共同声明
+- [エネルギー市場の深刻なストレス低下の公算、米イラン停戦合意で＝フィッチ](246_read_エネルギー市場の深刻なストレス低下の公算米イラン停戦合意でフィッチ.md) — エネルギー市場の深刻なストレス低下の公算、米イラン停戦合意で＝フィッチ
+- [レバノン、イスラエルとの協議に向け一時停戦提唱　ヒズボラは直接交渉拒否](247_read_レバノンイスラエルとの協議に向け一時停戦提唱_ヒズボラは直接交渉拒否.md) — レバノン、イスラエルとの協議に向け一時停戦提唱　ヒズボラは直接交渉拒否
+- [ネタニヤフ氏の汚職裁判12日に再開　イスラエル、非常事態宣言解除で](248_read_ネタニヤフ氏の汚職裁判12日に再開_イスラエル非常事態宣言解除で.md) — ネタニヤフ氏の汚職裁判12日に再開　イスラエル、非常事態宣言解除で
+- [米卸売在庫、2月は0.8％増　13カ月ぶりの高い伸び](249_read_米卸売在庫2月は08増_13カ月ぶりの高い伸び.md) — 米卸売在庫、2月は0.8％増　13カ月ぶりの高い伸び
+- [ホルムズ海峡利用料徴収は「危険な前例」、国際海事機関が警告](250_read_ホルムズ海峡利用料徴収は危険な前例国際海事機関が警告.md) — ホルムズ海峡利用料徴収は「危険な前例」、国際海事機関が警告
+- [イラン「地域和平にレバノン含めるべき」、停戦違反に一時報復寸前＝報道](251_read_イラン地域和平にレバノン含めるべき停戦違反に一時報復寸前報道.md) — イラン「地域和平にレバノン含めるべき」、停戦違反に一時報復寸前＝報道
+- [ホルムズ海峡の船舶通過、停戦後も停滞　イランが航行ルート指示](252_read_ホルムズ海峡の船舶通過停戦後も停滞_イランが航行ルート指示.md) — ホルムズ海峡の船舶通過、停戦後も停滞　イランが航行ルート指示
+- [注意喚起: NetScaler ADCおよびNetScaler Gatewayにおける境界外読み取りの脆弱性（CVE-2026-3055）に関する注意喚起  (公開)](253_read_注意喚起_NetScaler_ADCおよびNetScaler_Gatewayにおける境界外読み取りの.md) — JPCERTがNetScaler ADCおよびNetScaler Gatewayにおける境界外読み取りの脆弱性（Cの注意喚起を公開
+- [注意喚起: F5 BIG-IP Access Policy Managerの脆弱性（CVE-2025-53521）に関する注意喚起  (公開)](254_read_注意喚起_F5_BIG_IP_Access_Policy_Managerの脆弱性CVE_2025_5.md) — JPCERTがF5 BIG-IP Access Policy Managerの脆弱性（CVE-2025-53521の注意喚起を公開
+- [注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB26-26）に関する注意喚起  (公開)](255_read_注意喚起_Adobe_AcrobatおよびReaderの脆弱性APSB26_26に関する注意喚起_公.md) — JPCERTがAdobe AcrobatおよびReaderの脆弱性（APSB26-26）に関する注意喚起の注意喚起を公開
+- [注意喚起: 2026年3月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)](256_read_注意喚起_2026年3月マイクロソフトセキュリティ更新プログラムに関する注意喚起_公開.md) — JPCERTが2026年3月マイクロソフトセキュリティ更新プログラムに関する注意喚起の注意喚起を公開
+- [注意喚起: FileZenにおけるOSコマンドインジェクションの脆弱性（CVE-2026-25108）に関する注意喚起  (公開)](257_read_注意喚起_FileZenにおけるOSコマンドインジェクションの脆弱性CVE_2026_25108に関.md) — JPCERTがFileZenにおけるOSコマンドインジェクションの脆弱性（CVE-2026-25108）に関する注の注意喚起を公開
+- [注意喚起: 2026年2月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)](258_read_注意喚起_2026年2月マイクロソフトセキュリティ更新プログラムに関する注意喚起_公開.md) — JPCERTが2026年2月マイクロソフトセキュリティ更新プログラムに関する注意喚起の注意喚起を公開
+- [Weekly Report: NEC Atermシリーズに複数の脆弱性](259_read_Weekly_Report_NEC_Atermシリーズに複数の脆弱性.md) — Weekly Report: NEC Atermシリーズに複数の脆弱性
+- [Weekly Report: WatchGuard製FireboxのFireware OS Web UIにパストラバーサルの脆弱性](260_read_Weekly_Report_WatchGuard製FireboxのFireware_OS_Web_U.md) — Weekly Report: WatchGuard製FireboxのFireware OS Web UIにパストラバーサルの脆弱性
+- [Weekly Report: Google Chromeに複数の脆弱性](261_read_Weekly_Report_Google_Chromeに複数の脆弱性.md) — Weekly Report: Google Chromeに複数の脆弱性
+- [Weekly Report: AISIが「ヘルスケア領域におけるAIセーフティ評価観点ガイド」を公開](262_read_Weekly_Report_AISIがヘルスケア領域におけるAIセーフティ評価観点ガイドを公開.md) — Weekly Report: AISIが「ヘルスケア領域におけるAIセーフティ評価観点ガイド」を公開
+- [Weekly Report: デジタル庁が「政府情報システムにおける脅威の検知・対応のためのログ取得・分析導入ガイドブック」を公開](263_read_Weekly_Report_デジタル庁が政府情報システムにおける脅威の検知対応のためのログ取得分析導.md) — Weekly Report: デジタル庁が「政府情報システムにおける脅威の検知・対応のためのログ取得・分析導入ガイドブック」を公開
+- [Weekly Report: IPAが「製品開発者向け・製品利用者向けガイド」を公開](264_read_Weekly_Report_IPAが製品開発者向け製品利用者向けガイドを公開.md) — Weekly Report: IPAが「製品開発者向け・製品利用者向けガイド」を公開
+- [Weekly Report: 総務省が「AIのセキュリティ確保のための技術的対策に係るガイドライン」を公開](265_read_Weekly_Report_総務省がAIのセキュリティ確保のための技術的対策に係るガイドラインを公開.md) — Weekly Report: 総務省が「AIのセキュリティ確保のための技術的対策に係るガイドライン」を公開
+- [Weekly Report: JPCERT/CCが「組織改編のお知らせ -情報発信からインシデント対応支援までの一本化に向けて-」を公開](266_read_Weekly_Report_JPCERTCCが組織改編のお知らせ_情報発信からインシデント対応支援ま.md) — Weekly Report: JPCERT/CCが「組織改編のお知らせ -情報発信からインシデント対応支援までの一本化に向けて-」
+- [Weekly Report: NetScaler ADCおよびNetScaler Gatewayにおける境界外読み取りの脆弱性（CVE-2026-3055）に関する注意喚起](267_read_Weekly_Report_NetScaler_ADCおよびNetScaler_Gatewayにおけ.md) — Weekly Report: NetScaler ADCおよびNetScaler Gatewayにおける境界外読み取りの脆弱性（C
+- [Weekly Report: F5 BIG-IP Access Policy Managerの脆弱性（CVE-2025-53521）に関する注意喚起](268_read_Weekly_Report_F5_BIG_IP_Access_Policy_Managerの脆弱性C.md) — Weekly Report: F5 BIG-IP Access Policy Managerの脆弱性（CVE-2025-53521
+- [AIによる文章入力支援はユーザーの考え方を知らないうちに左右してしまう可能性](269_read_AIによる文章入力支援はユーザーの考え方を知らないうちに左右してしまう可能性.md) — AIによる文章入力支援はユーザーの考え方を知らないうちに左右してしまう可能性
+- [Xの画像モザイクツールが追加される＆ポスト自動翻訳機能が日本以外でも展開開始＆xAIが10兆パラメーターのAIを開発中](275_read_Xの画像モザイクツールが追加されるポスト自動翻訳機能が日本以外でも展開開始xAIが10兆パラメーター.md) — Xの画像モザイクツールが追加される＆ポスト自動翻訳機能が日本以外でも展開開始＆xAIが10兆パラメーターのAIを開発中
+- [暗号化ドライブ「VeraCrypt」更新停止、Microsoftにアカウントを止められ公式の復旧窓口でコンタクトしても無視されているため](277_read_暗号化ドライブVeraCrypt更新停止Microsoftにアカウントを止められ公式の復旧窓口でコン.md) — 暗号化ドライブ「VeraCrypt」更新停止、Microsoftにアカウントを止められ公式の復旧窓口でコンタクトしても無
+- [約2万5000人のTelegramユーザーが児童性的虐待画像の共有やスパイウェアの取引などに関わっているとの調査結果](278_read_約2万5000人のTelegramユーザーが児童性的虐待画像の共有やスパイウェアの取引などに関わって.md) — 約2万5000人のTelegramユーザーが児童性的虐待画像の共有やスパイウェアの取引などに関わっているとの調査結果
+- [ギリシャが2027年から15歳未満のSNSアクセスを禁止、プラットフォームには年齢確認メカニズムの導入を義務化](279_read_ギリシャが2027年から15歳未満のSNSアクセスを禁止プラットフォームには年齢確認メカニズムの導入.md) — ギリシャが2027年から15歳未満のSNSアクセスを禁止、プラットフォームには年齢確認メカニズムの導入を義務化
+- [Geminiに「NotebookLM」が統合されGeminiからノートブックを作成できるように](283_read_GeminiにNotebookLMが統合されGeminiからノートブックを作成できるように.md) — Geminiに「NotebookLM」が統合されGeminiからノートブックを作成できるように
+- [ClaudeベースのAIエージェントを簡単に本番環境に導入できる「Claude Managed Agents」が登場](284_read_ClaudeベースのAIエージェントを簡単に本番環境に導入できるClaude_Managed_Age.md) — ClaudeベースのAIエージェントを簡単に本番環境に導入できる「Claude Managed Agents」が登場
+- [ローカルで実行できる音楽生成AI「ACE-Step 1.5 XL」が登場、日本語ボーカル付き楽曲も生成可能](286_read_ローカルで実行できる音楽生成AIACE_Step_15_XLが登場日本語ボーカル付き楽曲も生成可能.md) — ローカルで実行できる音楽生成AI「ACE-Step 1.5 XL」が登場、日本語ボーカル付き楽曲も生成可能
+- [著作権侵害訴訟を受けたXによる「DMCAの乱用」訴訟は「単なる報復行為」だとして音楽権利団体が棄却を要請](287_read_著作権侵害訴訟を受けたXによるDMCAの乱用訴訟は単なる報復行為だとして音楽権利団体が棄却を要請.md) — 著作権侵害訴訟を受けたXによる「DMCAの乱用」訴訟は「単なる報復行為」だとして音楽権利団体が棄却を要請
+- [数千人のユーザーがOneDriveの止められないスパムの影響を受ける](289_read_数千人のユーザーがOneDriveの止められないスパムの影響を受ける.md) — 数千人のユーザーがOneDriveの止められないスパムの影響を受ける
+- [SUUMO・CHINTAI・アットホーム・ホームズ・オウチーノ・賃貸EXからメールアドレス約100万件などを含む個人情報が大規模流出か](291_read_SUUMOCHINTAIアットホームホームズオウチーノ賃貸EXからメールアドレス約100万件などを含.md) — SUUMO・CHINTAI・アットホーム・ホームズ・オウチーノ・賃貸EXからメールアドレス約100万件などを含む個人情報
+- [画像生成AI「FLUX.2」のデコード処理を1.4倍高速化する「FLUX.2 Small Decoder」が登場](292_read_画像生成AIFLUX2のデコード処理を14倍高速化するFLUX2_Small_Decoderが登場.md) — 画像生成AI「FLUX.2」のデコード処理を1.4倍高速化する「FLUX.2 Small Decoder」が登場
+- [ネイティブなマルチモーダル推論モデル「Muse Spark」をMetaが発表、AI事業の「根本的な見直し」の一環](294_read_ネイティブなマルチモーダル推論モデルMuse_SparkをMetaが発表AI事業の根本的な見直しの一.md) — ネイティブなマルチモーダル推論モデル「Muse Spark」をMetaが発表、AI事業の「根本的な見直し」の一環
+- [神について考えることで意思決定におけるAIの受容を高める可能性があるという研究結果](296_read_神について考えることで意思決定におけるAIの受容を高める可能性があるという研究結果.md) — 神について考えることで意思決定におけるAIの受容を高める可能性があるという研究結果
+- [PCでクリック操作やタスク実行などができるAIモデル「Holo3」リリース、オープンソース版は無料枠あり](297_read_PCでクリック操作やタスク実行などができるAIモデルHolo3リリースオープンソース版は無料枠あり.md) — PCでクリック操作やタスク実行などができるAIモデル「Holo3」リリース、オープンソース版は無料枠あり
+
+## ⚪ 流し読み
+- [海外勢の日本株買いが過去最大、配当巡る売りの反動との声－4月第1週](005_skim_海外勢の日本株買いが過去最大配当巡る売りの反動との声4月第1週.md) — 海外勢の日本株買いが過去最大、配当巡る売りの反動との声－4月第1週
+- [独自タクシー配車GOの上場、資金吸収額は数百億円規模で調整－関係者](006_skim_独自タクシー配車GOの上場資金吸収額は数百億円規模で調整関係者.md) — 独自タクシー配車GOの上場、資金吸収額は数百億円規模で調整－関係者
+- [ノボ系出資のアバリン・ファーマ、米IPO申請－肺線維症治療薬に注力](009_skim_ノボ系出資のアバリンファーマ米IPO申請肺線維症治療薬に注力.md) — ノボ系出資のアバリン・ファーマ、米IPO申請－肺線維症治療薬に注力
+- [Native Instant Space Switching on macOS](011_skim_Native_Instant_Space_Switching_on_macOS.md) — Native Instant Space Switching on macOS
+- [Charcuterie – Visual similarity Unicode explorer](013_skim_Charcuterie_Visual_similarity_Unicode_explorer.md) — Charcuterie – Visual similarity Unicode explorer
+- [PicoZ80 – Drop-In Z80 Replacement](014_skim_PicoZ80_Drop_In_Z80_Replacement.md) — PicoZ80 – Drop-In Z80 Replacement
+- [Old laptops in a colo as low cost servers](015_skim_Old_laptops_in_a_colo_as_low_cost_servers.md) — Old laptops in a colo as low cost servers
+- [Research-Driven Agents: What Happens When Your Agent Reads Before It Codes](017_skim_Research_Driven_Agents_What_Happens_When_Your_Agen.md) — Research-Driven Agents: What Happens When Your Agent Reads B
+- [Unfolder for Mac – A 3D model unfolding tool for creating papercraft](018_skim_Unfolder_for_Mac_A_3D_model_unfolding_tool_for_cre.md) — Unfolder for Mac – A 3D model unfolding tool for creating pa
+- [Moving from WordPress to Jekyll (and static site generators in general)](020_skim_Moving_from_WordPress_to_Jekyll_and_static_site_ge.md) — Moving from WordPress to Jekyll (and static site generators 
+- [Top laptops to use with FreeBSD](022_skim_Top_laptops_to_use_with_FreeBSD.md) — Top laptops to use with FreeBSD
+- [Reallocating $100/Month Claude Code Spend to Zed and OpenRouter](024_skim_Reallocating_100Month_Claude_Code_Spend_to_Zed_and.md) — Reallocating $100/Month Claude Code Spend to Zed and OpenRou
+- [Progressive encoding and decoding of 'repeated' protobuffer fields](028_skim_Progressive_encoding_and_decoding_of_repeated_prot.md) — Progressive encoding and decoding of 'repeated' protobuffer 
+- [Introduction to Nintendo DS Programming](029_skim_Introduction_to_Nintendo_DS_Programming.md) — Introduction to Nintendo DS Programming
+- [Wit, unker, Git: The lost medieval pronouns of English intimacy](032_skim_Wit_unker_Git_The_lost_medieval_pronouns_of_Englis.md) — Wit, unker, Git: The lost medieval pronouns of English intim
+- [The Future of Everything Is Lies, I Guess: Part 3 – Culture](034_skim_The_Future_of_Everything_Is_Lies_I_Guess_Part_3_Cu.md) — The Future of Everything Is Lies, I Guess: Part 3 – Culture
+- [Doing Impressions: Monet''s Early Caricatures (ca. late 1850s)](036_skim_Doing_Impressions_Monets_Early_Caricatures_ca_late.md) — Doing Impressions: Monet''s Early Caricatures (ca. late 1850
+- [Show HN: CSS Studio. Design by hand, code by agent](037_skim_Show_HN_CSS_Studio_Design_by_hand_code_by_agent.md) — Show HN: CSS Studio. Design by hand, code by agent
+- [grill-me スキルがめちゃ良いので布教したい](042_skim_grill_me_スキルがめちゃ良いので布教したい.md) — grill-me スキルがめちゃ良いので布教したい
+- [Terraformを使わずにGitHubをコードで管理する](043_skim_Terraformを使わずにGitHubをコードで管理する.md) — Terraformを使わずにGitHubをコードで管理する
+- [【2026年4月版】会社員が個人事業主になってApp Store・Google Playに組織アカウントで登録するまでの全記録](044_skim_2026年4月版会社員が個人事業主になってApp_StoreGoogle_Playに組織アカウントで.md) — 【2026年4月版】会社員が個人事業主になってApp Store・Google Playに組織アカウントで登録するまでの
+- [Amazon S3 Files vs Amazon FSx for Lustre：性能比較をしてみた](046_skim_Amazon_S3_Files_vs_Amazon_FSx_for_Lustre性能比較をしてみた.md) — Amazon S3 Files vs Amazon FSx for Lustre：性能比較をしてみた
+- [Vim の春コーデ — 透け見せの着こなし](049_skim_Vim_の春コーデ_透け見せの着こなし.md) — Vim の春コーデ — 透け見せの着こなし
+- [1年間実務で使い続けた最高のキーボード【roBa】のすすめ](051_skim_1年間実務で使い続けた最高のキーボードroBaのすすめ.md) — 1年間実務で使い続けた最高のキーボード【roBa】のすすめ
+- [デザインシステムを丸ごと Skills にする](053_skim_デザインシステムを丸ごと_Skills_にする.md) — デザインシステムを丸ごと Skills にする
+- [1件の問い合わせから、3万件/日のユーザ体験を改善したCREの取り組み](058_skim_1件の問い合わせから3万件日のユーザ体験を改善したCREの取り組み.md) — 1件の問い合わせから、3万件/日のユーザ体験を改善したCREの取り組み
+- [誰も教えてくれないソフトウェアの社会学](060_skim_誰も教えてくれないソフトウェアの社会学.md) — 誰も教えてくれないソフトウェアの社会学
+- [【35歳未経験でも理解できた】SPAへの進化](061_skim_35歳未経験でも理解できたSPAへの進化.md) — 【35歳未経験でも理解できた】SPAへの進化
+- [【後編】9割の新人エンジニアがやっている 「失礼しました」の落とし穴](063_skim_後編9割の新人エンジニアがやっている_失礼しましたの落とし穴.md) — 【後編】9割の新人エンジニアがやっている 「失礼しました」の落とし穴
+- [障害調査中にviewコマンドで巨大ログを開いてアプリを全停止させたお話](065_skim_障害調査中にviewコマンドで巨大ログを開いてアプリを全停止させたお話.md) — 障害調査中にviewコマンドで巨大ログを開いてアプリを全停止させたお話
+- [【35歳未経験でも理解できた】従来型のアプリケーション](066_skim_35歳未経験でも理解できた従来型のアプリケーション.md) — 【35歳未経験でも理解できた】従来型のアプリケーション
+- [Java経験者がLaravel(PHP)の文法を整理【超基本】](067_skim_Java経験者がLaravelPHPの文法を整理超基本.md) — Java経験者がLaravel(PHP)の文法を整理【超基本】
+- [【Git】実務でよくあるGitエラーと対処法まとめ](068_skim_Git実務でよくあるGitエラーと対処法まとめ.md) — 【Git】実務でよくあるGitエラーと対処法まとめ
+- [初心者こそ知っておきたい「単一責任の原則」](069_skim_初心者こそ知っておきたい単一責任の原則.md) — 初心者こそ知っておきたい「単一責任の原則」
+- [React で ref をどう扱うかを整理する](073_skim_React_で_ref_をどう扱うかを整理する.md) — React で ref をどう扱うかを整理する
+- [C# / .NETで始める依存性注入（DI）](074_skim_C_NETで始める依存性注入DI.md) — C# / .NETで始める依存性注入（DI）
+- [JUnitでMockを使用した単体テストの書き方](076_skim_JUnitでMockを使用した単体テストの書き方.md) — JUnitでMockを使用した単体テストの書き方
+- [「なぜこの言語で開発するの？」と聞かれた時に、納得してもらう説明の方法](077_skim_なぜこの言語で開発するのと聞かれた時に納得してもらう説明の方法.md) — 「なぜこの言語で開発するの？」と聞かれた時に、納得してもらう説明の方法
+- [C# で MVVM を学ぶならまずこれ！CommunityToolkit.Mvvm で理解する基本の流れ](079_skim_C_で_MVVM_を学ぶならまずこれCommunityToolkitMvvm_で理解する基本の流れ.md) — C# で MVVM を学ぶならまずこれ！CommunityToolkit.Mvvm で理解する基本の流れ
+- [ローカル環境のS3をlocalstackからRustFSへ](081_skim_ローカル環境のS3をlocalstackからRustFSへ.md) — ローカル環境のS3をlocalstackからRustFSへ
+- [新米データサイエンティストが守るコードの３つの原則](082_skim_新米データサイエンティストが守るコードの３つの原則.md) — 新米データサイエンティストが守るコードの３つの原則
+- [Spring Bootのステレオタイプアノテーションを整理する](083_skim_Spring_Bootのステレオタイプアノテーションを整理する.md) — Spring Bootのステレオタイプアノテーションを整理する
+- [equals()とhashCode()をオーバーライドしないと何が起きるか](084_skim_equalsとhashCodeをオーバーライドしないと何が起きるか.md) — equals()とhashCode()をオーバーライドしないと何が起きるか
+- [エンジニア未経験でも一目置かれるポートフォリオ。ビジネス視点で顧客に価値を届ける。](085_skim_エンジニア未経験でも一目置かれるポートフォリオビジネス視点で顧客に価値を届ける.md) — エンジニア未経験でも一目置かれるポートフォリオ。ビジネス視点で顧客に価値を届ける。
+- [【Git】実務でよく使うGitコマンドまとめ](086_skim_Git実務でよく使うGitコマンドまとめ.md) — 【Git】実務でよく使うGitコマンドまとめ
+- [(新機能)S3 Filesリリース](087_skim_新機能S3_Filesリリース.md) — (新機能)S3 Filesリリース
+- [Reactのレンダリングの仕組みを整理する](088_skim_Reactのレンダリングの仕組みを整理する.md) — Reactのレンダリングの仕組みを整理する
+- [【35歳未経験でも理解できた】URLとHTTP](090_skim_35歳未経験でも理解できたURLとHTTP.md) — 【35歳未経験でも理解できた】URLとHTTP
+- [Movable Typeにおける複数の脆弱性](091_skim_Movable_Typeにおける複数の脆弱性.md) — Movable Typeにおける複数の脆弱性
+- [抹茶シリーズにおける複数の脆弱性](092_skim_抹茶シリーズにおける複数の脆弱性.md) — 抹茶シリーズにおける複数の脆弱性
+- [NEC Atermシリーズにおける複数の脆弱性（NV26-001）](093_skim_NEC_Atermシリーズにおける複数の脆弱性NV26_001.md) — NEC Atermシリーズにおける複数の脆弱性（NV26-001）
+- [baserCMSにおける複数の脆弱性](094_skim_baserCMSにおける複数の脆弱性.md) — baserCMSにおける複数の脆弱性
+- [WordPress用プラグインOpenStreetMapにおけるクロスサイトスクリプティングの脆弱性](095_skim_WordPress用プラグインOpenStreetMapにおけるクロスサイトスクリプティングの脆弱性.md) — WordPress用プラグインOpenStreetMapにおけるクロスサイトスクリプティングの脆弱性
+- [バッファロー製Wi-Fiルータにおける複数の脆弱性](096_skim_バッファロー製Wi_Fiルータにおける複数の脆弱性.md) — バッファロー製Wi-Fiルータにおける複数の脆弱性
+- [RATOC RAID監視マネージャー（Windows用）のインストーラーにおける複数の脆弱性](097_skim_RATOC_RAID監視マネージャーWindows用のインストーラーにおける複数の脆弱性.md) — RATOC RAID監視マネージャー（Windows用）のインストーラーにおける複数の脆弱性
+- [デジタルフォトフレームGH-WDF10Aにおけるアクセス制限不備の脆弱性](098_skim_デジタルフォトフレームGH_WDF10Aにおけるアクセス制限不備の脆弱性.md) — デジタルフォトフレームGH-WDF10Aにおけるアクセス制限不備の脆弱性
+- [シャープ製ルーター製品における一部のweb APIに対する認証欠如の脆弱性](099_skim_シャープ製ルーター製品における一部のweb_APIに対する認証欠如の脆弱性.md) — シャープ製ルーター製品における一部のweb APIに対する認証欠如の脆弱性
+- [OM Workspace（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性](100_skim_OM_WorkspaceWindows版のインストーラにおけるDLL読み込みに関する脆弱性.md) — OM Workspace（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性
+- [山洋電気製SANUPS SOFTWAREにおける引用符で囲まれていないファイルパスの脆弱性](101_skim_山洋電気製SANUPS_SOFTWAREにおける引用符で囲まれていないファイルパスの脆弱性.md) — 山洋電気製SANUPS SOFTWAREにおける引用符で囲まれていないファイルパスの脆弱性
+- [IBM Trusteer RapportのインストーラーにおけるDLL読み込みに関する脆弱性](102_skim_IBM_Trusteer_RapportのインストーラーにおけるDLL読み込みに関する脆弱性.md) — IBM Trusteer RapportのインストーラーにおけるDLL読み込みに関する脆弱性
+- [GROWIのOpenAIスレッド・メッセージ APIにおける権限チェック欠如の脆弱性](103_skim_GROWIのOpenAIスレッドメッセージ_APIにおける権限チェック欠如の脆弱性.md) — GROWIのOpenAIスレッド・メッセージ APIにおける権限チェック欠如の脆弱性
+- [複数のデジタルアーツ製品における不適切なファイルアクセス権設定の脆弱性](105_skim_複数のデジタルアーツ製品における不適切なファイルアクセス権設定の脆弱性.md) — 複数のデジタルアーツ製品における不適切なファイルアクセス権設定の脆弱性
+- [Qsee ClientのインストーラにおけるDLL読み込みに関する脆弱性](106_skim_Qsee_ClientのインストーラにおけるDLL読み込みに関する脆弱性.md) — Qsee ClientのインストーラにおけるDLL読み込みに関する脆弱性
+- [django-allauthにおけるオープンリダイレクトの脆弱性](107_skim_django_allauthにおけるオープンリダイレクトの脆弱性.md) — django-allauthにおけるオープンリダイレクトの脆弱性
+- [EC-CUBEにおける多要素認証をバイパスされる脆弱性](108_skim_EC_CUBEにおける多要素認証をバイパスされる脆弱性.md) — EC-CUBEにおける多要素認証をバイパスされる脆弱性
+- [UPS Multi-UPS Management Console（MUMC）における複数の脆弱性](109_skim_UPS_Multi_UPS_Management_ConsoleMUMCにおける複数の脆弱性.md) — UPS Multi-UPS Management Console（MUMC）における複数の脆弱性
+- [intra-mart Accel PlatformのIM-LogicDesignerモジュールにおける信頼できないデータのデシリアライゼーションの脆弱性](110_skim_intra_mart_Accel_PlatformのIM_LogicDesignerモジュールにおけ.md) — intra-mart Accel PlatformのIM-LogicDesignerモジュールにおける信頼できないデータ
+- [複数のソリトンシステムズ製品のインストーラにおけるインストール時の不適切なファイルアクセス権設定の脆弱性](111_skim_複数のソリトンシステムズ製品のインストーラにおけるインストール時の不適切なファイルアクセス権設定の脆.md) — 複数のソリトンシステムズ製品のインストーラにおけるインストール時の不適切なファイルアクセス権設定の脆弱性
+- [FinalCode Clientのインストーラーにおける複数の脆弱性](112_skim_FinalCode_Clientのインストーラーにおける複数の脆弱性.md) — FinalCode Clientのインストーラーにおける複数の脆弱性
+- [LANSCOPE エンドポイントマネージャー オンプレミス版におけるパストラバーサルの脆弱性](113_skim_LANSCOPE_エンドポイントマネージャー_オンプレミス版におけるパストラバーサルの脆弱性.md) — LANSCOPE エンドポイントマネージャー オンプレミス版におけるパストラバーサルの脆弱性
+- [ジョブログ集計/分析ソフトウェア  RICOHジョブログ集計ツールのインストーラにおけるDLL読み込みに関する脆弱性](114_skim_ジョブログ集計分析ソフトウェア_RICOHジョブログ集計ツールのインストーラにおけるDLL読み込みに.md) — ジョブログ集計/分析ソフトウェア  RICOHジョブログ集計ツールのインストーラにおけるDLL読み込みに関する脆弱性
+- [WordPress用プラグインSurvey Makerにおけるクロスサイトスクリプティングの脆弱性](115_skim_WordPress用プラグインSurvey_Makerにおけるクロスサイトスクリプティングの脆弱性.md) — WordPress用プラグインSurvey Makerにおけるクロスサイトスクリプティングの脆弱性
+- [Joomla! CMSにおけるクロスサイトスクリプティングの脆弱性](116_skim_Joomla_CMSにおけるクロスサイトスクリプティングの脆弱性.md) — Joomla! CMSにおけるクロスサイトスクリプティングの脆弱性
+- [M-Audio製M-Track Duo HDインストーラにおける任意のDLL読み込みの脆弱性](118_skim_M_Audio製M_Track_Duo_HDインストーラにおける任意のDLL読み込みの脆弱性.md) — M-Audio製M-Track Duo HDインストーラにおける任意のDLL読み込みの脆弱性
+- [沖電気工業製品およびそのOEM製品における引用符で囲まれていないファイルパスの脆弱性](119_skim_沖電気工業製品およびそのOEM製品における引用符で囲まれていないファイルパスの脆弱性.md) — 沖電気工業製品およびそのOEM製品における引用符で囲まれていないファイルパスの脆弱性
+- [web2pyにおけるオープンリダイレクトの脆弱性](120_skim_web2pyにおけるオープンリダイレクトの脆弱性.md) — web2pyにおけるオープンリダイレクトの脆弱性
+- [Movable Typeにおける複数の脆弱性](121_skim_Movable_Typeにおける複数の脆弱性.md) — Movable Typeにおける複数の脆弱性
+- [エレコム無線LAN関連製品における複数の脆弱性](122_skim_エレコム無線LAN関連製品における複数の脆弱性.md) — エレコム無線LAN関連製品における複数の脆弱性
+- [三菱小容量UPS用シャットダウンソフトウェア FREQSHIP-mini for Windowsにおけるインストール時の不適切なファイルアクセス権設定の脆弱性](123_skim_三菱小容量UPS用シャットダウンソフトウェア_FREQSHIP_mini_for_Windowsにお.md) — 三菱小容量UPS用シャットダウンソフトウェア FREQSHIP-mini for Windowsにおけるインストール時の
+- [Roland Cloud ManagerのインストーラにおけるDLL読み込みに関する脆弱性](124_skim_Roland_Cloud_ManagerのインストーラにおけるDLL読み込みに関する脆弱性.md) — Roland Cloud ManagerのインストーラにおけるDLL読み込みに関する脆弱性
+- [サイボウズ Garoonにおける複数の脆弱性](125_skim_サイボウズ_Garoonにおける複数の脆弱性.md) — サイボウズ Garoonにおける複数の脆弱性
+- [複数のMicrosoft Office製品における信頼できない検索パスの脆弱性](126_skim_複数のMicrosoft_Office製品における信頼できない検索パスの脆弱性.md) — 複数のMicrosoft Office製品における信頼できない検索パスの脆弱性
+- [サポートが終了したNETGEAR製品におけるマニュアルに記載のない「TelnetEnable」機能](129_skim_サポートが終了したNETGEAR製品におけるマニュアルに記載のないTelnetEnable機能.md) — サポートが終了したNETGEAR製品におけるマニュアルに記載のない「TelnetEnable」機能
+- [beat-access Windows版におけるDLL読み込みに関する脆弱性](130_skim_beat_access_Windows版におけるDLL読み込みに関する脆弱性.md) — beat-access Windows版におけるDLL読み込みに関する脆弱性
+- [複数のASUSTeK COMPUTER製ルーターにおけるコマンドインジェクションの脆弱性](131_skim_複数のASUSTeK_COMPUTER製ルーターにおけるコマンドインジェクションの脆弱性.md) — 複数のASUSTeK COMPUTER製ルーターにおけるコマンドインジェクションの脆弱性
+- [ServerView Agents for WindowsのインストーラーにおけるDLL読み込みに関する脆弱性](132_skim_ServerView_Agents_for_WindowsのインストーラーにおけるDLL読み込みに関.md) — ServerView Agents for WindowsのインストーラーにおけるDLL読み込みに関する脆弱性
+- [TOA製ネットワークカメラ TRIFORA 3シリーズにおける複数の脆弱性](134_skim_TOA製ネットワークカメラ_TRIFORA_3シリーズにおける複数の脆弱性.md) — TOA製ネットワークカメラ TRIFORA 3シリーズにおける複数の脆弱性
+- [Chainlitにおけるアクセス制限不備の脆弱性](135_skim_Chainlitにおけるアクセス制限不備の脆弱性.md) — Chainlitにおけるアクセス制限不備の脆弱性
+- [EATON UPS Companionにおける複数の脆弱性](136_skim_EATON_UPS_Companionにおける複数の脆弱性.md) — EATON UPS Companionにおける複数の脆弱性
+- [RICOH Streamline NXにおける不適切な認可処理の脆弱性](137_skim_RICOH_Streamline_NXにおける不適切な認可処理の脆弱性.md) — RICOH Streamline NXにおける不適切な認可処理の脆弱性
+- [複数のPioneer製品のインストーラーにおけるDLL読み込みに関する脆弱性](138_skim_複数のPioneer製品のインストーラーにおけるDLL読み込みに関する脆弱性.md) — 複数のPioneer製品のインストーラーにおけるDLL読み込みに関する脆弱性
+- [複数のシャープディスプレイソリューションズ製のNECブランドプロジェクターにおける複数の脆弱性](139_skim_複数のシャープディスプレイソリューションズ製のNECブランドプロジェクターにおける複数の脆弱性.md) — 複数のシャープディスプレイソリューションズ製のNECブランドプロジェクターにおける複数の脆弱性
+- [Fujitsu Security Solution AuthConductor Client Basic V2における送信元の確認が不十分な脆弱性](140_skim_Fujitsu_Security_Solution_AuthConductor_Client_Bas.md) — Fujitsu Security Solution AuthConductor Client Basic V2における送
+- [GROWIにおけるクロスサイトリクエストフォージェリの脆弱性](141_skim_GROWIにおけるクロスサイトリクエストフォージェリの脆弱性.md) — GROWIにおけるクロスサイトリクエストフォージェリの脆弱性
+- [エレコム製クローン for Windowsにおける引用符で囲まれていないファイルパスの脆弱性](144_skim_エレコム製クローン_for_Windowsにおける引用符で囲まれていないファイルパスの脆弱性.md) — エレコム製クローン for Windowsにおける引用符で囲まれていないファイルパスの脆弱性
+- [GroupSessionにおける複数の脆弱性](145_skim_GroupSessionにおける複数の脆弱性.md) — GroupSessionにおける複数の脆弱性
+- [ＧＳユアサ製FULLBACK Manager Proにおける引用符で囲まれていないファイルパスの脆弱性](146_skim_ＧＳユアサ製FULLBACK_Manager_Proにおける引用符で囲まれていないファイルパスの脆弱.md) — ＧＳユアサ製FULLBACK Manager Proにおける引用符で囲まれていないファイルパスの脆弱性
+- [ABB製Terra AC wallboxにおける複数の脆弱性](147_skim_ABB製Terra_AC_wallboxにおける複数の脆弱性.md) — ABB製Terra AC wallboxにおける複数の脆弱性
+- [INZONE HubのインストーラにおけるDLL読み込みに関する脆弱性](148_skim_INZONE_HubのインストーラにおけるDLL読み込みに関する脆弱性.md) — INZONE HubのインストーラにおけるDLL読み込みに関する脆弱性
+- [SwitchBot製スマートテレビドアホンに利用可能なデバッグ機能が存在している脆弱性](149_skim_SwitchBot製スマートテレビドアホンに利用可能なデバッグ機能が存在している脆弱性.md) — SwitchBot製スマートテレビドアホンに利用可能なデバッグ機能が存在している脆弱性
+- [MaLionの端末エージェント（Windows）における複数の脆弱性](150_skim_MaLionの端末エージェントWindowsにおける複数の脆弱性.md) — MaLionの端末エージェント（Windows）における複数の脆弱性
+- [SNC-CX600Wにおける複数の脆弱性](151_skim_SNC_CX600Wにおける複数の脆弱性.md) — SNC-CX600Wにおける複数の脆弱性
+- [LogStare Collectorにおける複数の脆弱性](153_skim_LogStare_Collectorにおける複数の脆弱性.md) — LogStare Collectorにおける複数の脆弱性
+- [らくらく無線スタートEX for WindowsのインストーラにおけるDLL読み込みに関する脆弱性](154_skim_らくらく無線スタートEX_for_WindowsのインストーラにおけるDLL読み込みに関する脆弱性.md) — らくらく無線スタートEX for WindowsのインストーラにおけるDLL読み込みに関する脆弱性
+- [iOSアプリ「デジラアプリ」におけるサーバ証明書の検証不備の脆弱性](155_skim_iOSアプリデジラアプリにおけるサーバ証明書の検証不備の脆弱性.md) — iOSアプリ「デジラアプリ」におけるサーバ証明書の検証不備の脆弱性
+- [GNU Libmicrohttpd における複数の脆弱性](157_skim_GNU_Libmicrohttpd_における複数の脆弱性.md) — GNU Libmicrohttpd における複数の脆弱性
+- [バッファロー製Wi-Fiルーター「WSR-1800AX4シリーズ」における強度が不十分なパスワードハッシュの使用の脆弱性](158_skim_バッファロー製Wi_FiルーターWSR_1800AX4シリーズにおける強度が不十分なパスワードハッシ.md) — バッファロー製Wi-Fiルーター「WSR-1800AX4シリーズ」における強度が不十分なパスワードハッシュの使用の脆弱性
+- [GROWIにおける格納型クロスサイトスクリプティングの脆弱性](160_skim_GROWIにおける格納型クロスサイトスクリプティングの脆弱性.md) — GROWIにおける格納型クロスサイトスクリプティングの脆弱性
+- [複数のRoboticsware製品における引用符で囲まれていないファイルパスの脆弱性](161_skim_複数のRoboticsware製品における引用符で囲まれていないファイルパスの脆弱性.md) — 複数のRoboticsware製品における引用符で囲まれていないファイルパスの脆弱性
+- [Optical Disc Archive Software (Windows版)における引用符で囲まれていないファイルパスの脆弱性](162_skim_Optical_Disc_Archive_Software_Windows版における引用符で囲まれて.md) — Optical Disc Archive Software (Windows版)における引用符で囲まれていないファイルパ
+- [WTW EAGLE（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性](164_skim_WTW_EAGLEWindows版のインストーラにおけるDLL読み込みに関する脆弱性.md) — WTW EAGLE（Windows版）のインストーラにおけるDLL読み込みに関する脆弱性
+- [プリザンターにおける複数の格納型クロスサイトスクリプティングの脆弱性](166_skim_プリザンターにおける複数の格納型クロスサイトスクリプティングの脆弱性.md) — プリザンターにおける複数の格納型クロスサイトスクリプティングの脆弱性
+- [GROWIにおけるクロスサイトスクリプティングの脆弱性](167_skim_GROWIにおけるクロスサイトスクリプティングの脆弱性.md) — GROWIにおけるクロスサイトスクリプティングの脆弱性
+- [複数のアイ・オー・データ製NAS管理アプリケーションにおける引用符で囲まれていないファイルパスの脆弱性](168_skim_複数のアイオーデータ製NAS管理アプリケーションにおける引用符で囲まれていないファイルパスの脆弱性.md) — 複数のアイ・オー・データ製NAS管理アプリケーションにおける引用符で囲まれていないファイルパスの脆弱性
+- [Movable Typeにおける複数の格納型クロスサイトスクリプティングの脆弱性](169_skim_Movable_Typeにおける複数の格納型クロスサイトスクリプティングの脆弱性.md) — Movable Typeにおける複数の格納型クロスサイトスクリプティングの脆弱性
+- [LANSCOPE エンドポイントマネージャー オンプレミス版における通信チャネルの送信元検証不備の脆弱性](170_skim_LANSCOPE_エンドポイントマネージャー_オンプレミス版における通信チャネルの送信元検証不備の脆.md) — LANSCOPE エンドポイントマネージャー オンプレミス版における通信チャネルの送信元検証不備の脆弱性
+- [ETERNUS SF製品における不適切なファイルアクセス権設定の脆弱性](171_skim_ETERNUS_SF製品における不適切なファイルアクセス権設定の脆弱性.md) — ETERNUS SF製品における不適切なファイルアクセス権設定の脆弱性
+- [AutoDownloaderのインストーラにおけるDLL読み込みに関する脆弱性](172_skim_AutoDownloaderのインストーラにおけるDLL読み込みに関する脆弱性.md) — AutoDownloaderのインストーラにおけるDLL読み込みに関する脆弱性
+- [ChatLuckにおける複数の脆弱性](173_skim_ChatLuckにおける複数の脆弱性.md) — ChatLuckにおける複数の脆弱性
+- [desknet's NEOにおける複数の脆弱性](174_skim_desknets_NEOにおける複数の脆弱性.md) — desknet's NEOにおける複数の脆弱性
+- [Ruijie Networks製RG-EST300におけるSSH機能が有効になっている問題](175_skim_Ruijie_Networks製RG_EST300におけるSSH機能が有効になっている問題.md) — Ruijie Networks製RG-EST300におけるSSH機能が有効になっている問題
+- [複数のRSUPPORT製品における安全でないDLL読み込みの脆弱性](177_skim_複数のRSUPPORT製品における安全でないDLL読み込みの脆弱性.md) — 複数のRSUPPORT製品における安全でないDLL読み込みの脆弱性
+- [バッファロー製NAS Navigator2における引用符で囲まれていないファイルパスの脆弱性](178_skim_バッファロー製NAS_Navigator2における引用符で囲まれていないファイルパスの脆弱性.md) — バッファロー製NAS Navigator2における引用符で囲まれていないファイルパスの脆弱性
+- [複数のデンソーテン製ドライブレコーダビューアのインストーラにおける任意のDLL読み込みの脆弱性](179_skim_複数のデンソーテン製ドライブレコーダビューアのインストーラにおける任意のDLL読み込みの脆弱性.md) — 複数のデンソーテン製ドライブレコーダビューアのインストーラにおける任意のDLL読み込みの脆弱性
+- [UNIVERGE IX/IX-R/IX-Vシリーズルータにおけるクロスサイトスクリプティングの脆弱性](181_skim_UNIVERGE_IXIX_RIX_Vシリーズルータにおけるクロスサイトスクリプティングの脆弱性.md) — UNIVERGE IX/IX-R/IX-Vシリーズルータにおけるクロスサイトスクリプティングの脆弱性
+- [Century HW RAID Managerにおける引用符で囲まれていないファイルパスの脆弱性](182_skim_Century_HW_RAID_Managerにおける引用符で囲まれていないファイルパスの脆弱性.md) — Century HW RAID Managerにおける引用符で囲まれていないファイルパスの脆弱性
+- [スマートフォンアプリ「WTW-EAGLE」におけるサーバ証明書の検証不備の脆弱性](183_skim_スマートフォンアプリWTW_EAGLEにおけるサーバ証明書の検証不備の脆弱性.md) — スマートフォンアプリ「WTW-EAGLE」におけるサーバ証明書の検証不備の脆弱性
+- [RICOH Streamline NXにおける操作履歴の改ざんにつながる脆弱性](184_skim_RICOH_Streamline_NXにおける操作履歴の改ざんにつながる脆弱性.md) — RICOH Streamline NXにおける操作履歴の改ざんにつながる脆弱性
+- [RATOC RAID監視マネージャー（Windows用）における引用符で囲まれていないファイルパスの脆弱性](185_skim_RATOC_RAID監視マネージャーWindows用における引用符で囲まれていないファイルパスの脆弱.md) — RATOC RAID監視マネージャー（Windows用）における引用符で囲まれていないファイルパスの脆弱性
+- [Obsidian GitHub Copilot Pluginにおける重要情報の平文保存の脆弱性](186_skim_Obsidian_GitHub_Copilot_Pluginにおける重要情報の平文保存の脆弱性.md) — Obsidian GitHub Copilot Pluginにおける重要情報の平文保存の脆弱性
+- [Androidアプリ「Yahoo!ショッピング」におけるアクセス制限不備の脆弱性](187_skim_AndroidアプリYahooショッピングにおけるアクセス制限不備の脆弱性.md) — Androidアプリ「Yahoo!ショッピング」におけるアクセス制限不備の脆弱性
+- [Pythonライブラリ「TkEasyGUI」における複数の脆弱性](188_skim_PythonライブラリTkEasyGUIにおける複数の脆弱性.md) — Pythonライブラリ「TkEasyGUI」における複数の脆弱性
+- [Web Caster V130におけるクロスサイトリクエストフォージェリの脆弱性](189_skim_Web_Caster_V130におけるクロスサイトリクエストフォージェリの脆弱性.md) — Web Caster V130におけるクロスサイトリクエストフォージェリの脆弱性
+- [スマートフォンアプリ「グノシー」における送信データへの機微な情報の挿入の脆弱性](190_skim_スマートフォンアプリグノシーにおける送信データへの機微な情報の挿入の脆弱性.md) — スマートフォンアプリ「グノシー」における送信データへの機微な情報の挿入の脆弱性
+- [複数のiND製品における複数の脆弱性](192_skim_複数のiND製品における複数の脆弱性.md) — 複数のiND製品における複数の脆弱性
+- [複数のi-フィルター製品における不適切なファイルアクセス権設定の脆弱性](193_skim_複数のi_フィルター製品における不適切なファイルアクセス権設定の脆弱性.md) — 複数のi-フィルター製品における不適切なファイルアクセス権設定の脆弱性
+- [SS1における複数の脆弱性](194_skim_SS1における複数の脆弱性.md) — SS1における複数の脆弱性
+- [Western Digital Kitfoxにおける引用符で囲まれていないファイルパスの脆弱性](196_skim_Western_Digital_Kitfoxにおける引用符で囲まれていないファイルパスの脆弱性.md) — Western Digital Kitfoxにおける引用符で囲まれていないファイルパスの脆弱性
+- [Group-Officeにおける複数の脆弱性](197_skim_Group_Officeにおける複数の脆弱性.md) — Group-Officeにおける複数の脆弱性
+- [Movable Typeにおける複数の脆弱性](198_skim_Movable_Typeにおける複数の脆弱性.md) — Movable Typeにおける複数の脆弱性
+- [PgManageにおけるインジェクションの脆弱性](199_skim_PgManageにおけるインジェクションの脆弱性.md) — PgManageにおけるインジェクションの脆弱性
+- [Seagate Toolkitにおける引用符で囲まれていないファイルパスの脆弱性](200_skim_Seagate_Toolkitにおける引用符で囲まれていないファイルパスの脆弱性.md) — Seagate Toolkitにおける引用符で囲まれていないファイルパスの脆弱性
+- [WordPress用プラグインAdvanced Custom FieldsにおけるHTMLインジェクションの脆弱性](201_skim_WordPress用プラグインAdvanced_Custom_FieldsにおけるHTMLインジェク.md) — WordPress用プラグインAdvanced Custom FieldsにおけるHTMLインジェクションの脆弱性
+- [ムービット製Powered BLUE 870における複数の脆弱性](202_skim_ムービット製Powered_BLUE_870における複数の脆弱性.md) — ムービット製Powered BLUE 870における複数の脆弱性
+- [サトー製ラベルプリンタCL4/6NX-J PlusおよびCL4/6NX Plusシリーズにおける複数の脆弱性](203_skim_サトー製ラベルプリンタCL46NX_J_PlusおよびCL46NX_Plusシリーズにおける複数の脆.md) — サトー製ラベルプリンタCL4/6NX-J PlusおよびCL4/6NX Plusシリーズにおける複数の脆弱性
+- [Apache Jena Fusekiにおけるパストラバーサルの脆弱性](205_skim_Apache_Jena_Fusekiにおけるパストラバーサルの脆弱性.md) — Apache Jena Fusekiにおけるパストラバーサルの脆弱性
+- [スマートフォンアプリ「SwitchBot」におけるログファイルへの機微な情報の出力の脆弱性](206_skim_スマートフォンアプリSwitchBotにおけるログファイルへの機微な情報の出力の脆弱性.md) — スマートフォンアプリ「SwitchBot」におけるログファイルへの機微な情報の出力の脆弱性
+- [TP-Link製Archer C1200におけるクリックジャッキングの脆弱性](207_skim_TP_Link製Archer_C1200におけるクリックジャッキングの脆弱性.md) — TP-Link製Archer C1200におけるクリックジャッキングの脆弱性
+- [バスロケーションシステムにおける数値の入力に対する不適切な検証の脆弱性](208_skim_バスロケーションシステムにおける数値の入力に対する不適切な検証の脆弱性.md) — バスロケーションシステムにおける数値の入力に対する不適切な検証の脆弱性
+- [Androidアプリ「region PAY」にログファイルへの機微な情報の出力の脆弱性](209_skim_Androidアプリregion_PAYにログファイルへの機微な情報の出力の脆弱性.md) — Androidアプリ「region PAY」にログファイルへの機微な情報の出力の脆弱性
+- [Nimesa Backup and Recoveryにおける複数の脆弱性](211_skim_Nimesa_Backup_and_Recoveryにおける複数の脆弱性.md) — Nimesa Backup and Recoveryにおける複数の脆弱性
+- [Active! mailにおける複数の脆弱性](212_skim_Active_mailにおける複数の脆弱性.md) — Active! mailにおける複数の脆弱性
+- [RICOH Streamline NXの管理ツールのヘルプドキュメントシステムにおける反射型クロスサイトスクリプティングの脆弱性](213_skim_RICOH_Streamline_NXの管理ツールのヘルプドキュメントシステムにおける反射型クロスサ.md) — RICOH Streamline NXの管理ツールのヘルプドキュメントシステムにおける反射型クロスサイトスクリプティング
+- [iroha Boardにおける複数の脆弱性](214_skim_iroha_Boardにおける複数の脆弱性.md) — iroha Boardにおける複数の脆弱性
+- [複数のApache製品におけるサービス運用妨害（DoS）の脆弱性](215_skim_複数のApache製品におけるサービス運用妨害DoSの脆弱性.md) — 複数のApache製品におけるサービス運用妨害（DoS）の脆弱性
+- [GROWIにおける非効率な正規表現の使用](216_skim_GROWIにおける非効率な正規表現の使用.md) — GROWIにおける非効率な正規表現の使用
+- [エレコム製無線LANルータにおける複数の脆弱性](217_skim_エレコム製無線LANルータにおける複数の脆弱性.md) — エレコム製無線LANルータにおける複数の脆弱性
+- [RICOH Streamline NX PC Clientにおける複数の脆弱性](219_skim_RICOH_Streamline_NX_PC_Clientにおける複数の脆弱性.md) — RICOH Streamline NX PC Clientにおける複数の脆弱性
+- [アップデートナビにおける意図しないエンドポイントとの通信を拒否しない脆弱性](220_skim_アップデートナビにおける意図しないエンドポイントとの通信を拒否しない脆弱性.md) — アップデートナビにおける意図しないエンドポイントとの通信を拒否しない脆弱性
+- [複数のi-PRO製監視カメラにおけるクロスサイトリクエストフォージェリの脆弱性](221_skim_複数のi_PRO製監視カメラにおけるクロスサイトリクエストフォージェリの脆弱性.md) — 複数のi-PRO製監視カメラにおけるクロスサイトリクエストフォージェリの脆弱性
+- [タイム・ワークスにおけるパストラバーサルの脆弱性](222_skim_タイムワークスにおけるパストラバーサルの脆弱性.md) — タイム・ワークスにおけるパストラバーサルの脆弱性
+- [PC Time Tracerにおける不適切なファイルアクセス権設定の脆弱性](223_skim_PC_Time_Tracerにおける不適切なファイルアクセス権設定の脆弱性.md) — PC Time Tracerにおける不適切なファイルアクセス権設定の脆弱性
+- [wivia 5における複数の脆弱性](224_skim_wivia_5における複数の脆弱性.md) — wivia 5における複数の脆弱性
+- [メールフォームプロCGIにおけるエラーメッセージによる情報漏えいの脆弱性](225_skim_メールフォームプロCGIにおけるエラーメッセージによる情報漏えいの脆弱性.md) — メールフォームプロCGIにおけるエラーメッセージによる情報漏えいの脆弱性
+- [i-FILTERのオプション機能「Anti-Virus & Sandbox」におけるパターンファイルの検証不備の脆弱性](226_skim_i_FILTERのオプション機能Anti_Virus_Sandboxにおけるパターンファイルの検証不.md) — i-FILTERのオプション機能「Anti-Virus & Sandbox」におけるパターンファイルの検証不備の脆弱性
+- [リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）における反射型クロスサイトスクリプティングの脆弱性](228_skim_リコー製Web_Image_Monitorを実装している複数のレーザープリンタおよび複合機MFPにお.md) — リコー製Web Image Monitorを実装している複数のレーザープリンタおよび複合機（MFP）における反射型クロス
+- [Quickエージェントにおける複数の脆弱性](229_skim_Quickエージェントにおける複数の脆弱性.md) — Quickエージェントにおける複数の脆弱性
+- [BizRobo!における複数の脆弱性](232_skim_BizRoboにおける複数の脆弱性.md) — BizRobo!における複数の脆弱性
+- [メラニア氏、エプスタイン氏との関係否定　異例の演説](242_skim_メラニア氏エプスタイン氏との関係否定_異例の演説.md) — メラニア氏、エプスタイン氏との関係否定　異例の演説
+- [Samsung Galaxy S26シリーズの使い勝手を次世代NFCショートカットボタン「Aaron Button」でさらに向上させるPITAKAのアラミド繊維採用Samsung](270_skim_Samsung_Galaxy_S26シリーズの使い勝手を次世代NFCショートカットボタンAaron_.md) — Samsung Galaxy S26シリーズの使い勝手を次世代NFCショートカットボタン「Aaron Button」でさ
+- [「ノイズキャンセリングを貫通して存在を知らせる自転車用ベル」をシュコダが開発](271_skim_ノイズキャンセリングを貫通して存在を知らせる自転車用ベルをシュコダが開発.md) — 「ノイズキャンセリングを貫通して存在を知らせる自転車用ベル」をシュコダが開発
+- [Mac OS XをWiiに移植してしまった猛者が登場](272_skim_Mac_OS_XをWiiに移植してしまった猛者が登場.md) — Mac OS XをWiiに移植してしまった猛者が登場
+- [毎回安定しておいしいエスプレッソをいれるための科学的な方法とは？](273_skim_毎回安定しておいしいエスプレッソをいれるための科学的な方法とは.md) — 毎回安定しておいしいエスプレッソをいれるための科学的な方法とは？
+- [2026年4月9日のヘッドラインニュース](274_skim_2026年4月9日のヘッドラインニュース.md) — 2026年4月9日のヘッドラインニュース
+- [「サッポロ一番 しょうゆ味 タテビッグ リュウジ監修世界で一つの 爆旨にんにく」はフライドガーリックの強烈な香りとパンチがしっかり効いたスタミナあふれる一杯](276_skim_サッポロ一番_しょうゆ味_タテビッグ_リュウジ監修世界で一つの_爆旨にんにくはフライドガーリックの強.md) — 「サッポロ一番 しょうゆ味 タテビッグ リュウジ監修世界で一つの 爆旨にんにく」はフライドガーリックの強烈な香りとパンチ
+- [「サトシ・ナカモトの正体はイギリス人のアダム・バック氏」と名指しされるも本人はその疑惑を否定](280_skim_サトシナカモトの正体はイギリス人のアダムバック氏と名指しされるも本人はその疑惑を否定.md) — 「サトシ・ナカモトの正体はイギリス人のアダム・バック氏」と名指しされるも本人はその疑惑を否定
+- [イランはホルムズ海峡を通過する船舶の通行料を仮想通貨で支払うよう求める予定](281_skim_イランはホルムズ海峡を通過する船舶の通行料を仮想通貨で支払うよう求める予定.md) — イランはホルムズ海峡を通過する船舶の通行料を仮想通貨で支払うよう求める予定
+- [ネコがごはんを残す理由が解明される、エサの匂いが変わると再び食べるように](282_skim_ネコがごはんを残す理由が解明されるエサの匂いが変わると再び食べるように.md) — ネコがごはんを残す理由が解明される、エサの匂いが変わると再び食べるように
+- [皮膚の「セラミド不足」がアトピー性皮膚炎の原因となり得ることを日本の宇都宮大学が世界で初めて実証したと発表](285_skim_皮膚のセラミド不足がアトピー性皮膚炎の原因となり得ることを日本の宇都宮大学が世界で初めて実証したと発.md) — 皮膚の「セラミド不足」がアトピー性皮膚炎の原因となり得ることを日本の宇都宮大学が世界で初めて実証したと発表
+- [一流のバスケ選手でもフリースローを外してしまうことがあるのはなぜ？](288_skim_一流のバスケ選手でもフリースローを外してしまうことがあるのはなぜ.md) — 一流のバスケ選手でもフリースローを外してしまうことがあるのはなぜ？
+- [GoProが従業員の約4分の1を削減する計画を提出、2025年度の通期決算では前年同期比で減収](290_skim_GoProが従業員の約4分の1を削減する計画を提出2025年度の通期決算では前年同期比で減収.md) — GoProが従業員の約4分の1を削減する計画を提出、2025年度の通期決算では前年同期比で減収
+- [Appleの折りたたみ式iPhoneのディスプレイはSamsungが3年間の独占契約、初期出荷台数は約300万台の予想](293_skim_Appleの折りたたみ式iPhoneのディスプレイはSamsungが3年間の独占契約初期出荷台数は約.md) — Appleの折りたたみ式iPhoneのディスプレイはSamsungが3年間の独占契約、初期出荷台数は約300万台の予想
+- [「規則正しい就寝時間」を守ることは心血管疾患のリスクを下げる](295_skim_規則正しい就寝時間を守ることは心血管疾患のリスクを下げる.md) — 「規則正しい就寝時間」を守ることは心血管疾患のリスクを下げる
+- [使用済み油を燃料に変換するシステムが開発される](298_skim_使用済み油を燃料に変換するシステムが開発される.md) — 使用済み油を燃料に変換するシステムが開発される

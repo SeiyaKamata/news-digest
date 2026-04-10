@@ -1,0 +1,9 @@
+---
+title: Century HW RAID Managerにおける引用符で囲まれていないファイルパスの脆弱性
+url: https://jvn.jp/jp/JVN84697061/
+date: 2026-04-10
+---
+
+## 要約
+- Century HW RAID Managerにおける引用符で囲まれていないファイルパスの脆弱性が報告された
+- 引用符なしファイルパスの脆弱性。リスクは低い
