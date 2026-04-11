@@ -1,8 +1,0 @@
----
-title: イラン、レバノン攻撃継続なら停戦離脱も　トランプ氏「合意に含まれず」＝報道
-url: https://jp.reuters.com/world/security/Y63K6WNQT5NGRGUNGWZ7DGRBHI-2026-04-08/
-date: 2026-04-09
----
-
-## 要約
-- イラン、レバノン攻撃継続なら停戦離脱も　トランプ氏「合意に含まれず」＝報道
