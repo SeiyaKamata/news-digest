@@ -11,7 +11,7 @@ Notionのnewsデータベースから今日の記事を取得し、精読/流し
 以下のスクリプトを実行して今日の記事をJSON形式で取得する：
 
 ```bash
-python skills/news-digest/scripts/fetch_news.py
+python .claude/skills/news-digest/scripts/fetch_news.py
 ```
 
 記事が0件の場合は処理を終了する。
@@ -34,7 +34,7 @@ python skills/news-digest/scripts/fetch_news.py
 ### Step 3: 今日の日報ページIDを取得
 
 ```bash
-python skills/news-digest/scripts/find_daily.py
+python .claude/skills/news-digest/scripts/find_daily.py
 ```
 
 出力されたURLの末尾がページID（ハイフンなし32文字）。
@@ -44,7 +44,7 @@ python skills/news-digest/scripts/find_daily.py
 以下の形式のJSONをstdinに渡してスクリプトを実行する：
 
 ```bash
-echo '<json>' | python skills/news-digest/scripts/append_digest.py <page_id>
+echo '<json>' | python .claude/skills/news-digest/scripts/append_digest.py <page_id>
 ```
 
 JSONの形式：
