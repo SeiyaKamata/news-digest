@@ -33,7 +33,7 @@ def main():
                 },
                 {
                     "property": "Period",
-                    "select": {"equals": "Dialy"}
+                    "select": {"equals": "Daily"}
                 }
             ]
         }

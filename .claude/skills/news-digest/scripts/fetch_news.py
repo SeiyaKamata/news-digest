@@ -77,8 +77,16 @@ def main():
         "page_size": 100,
     }
 
-    data = notion_request("POST", f"/databases/{NOTION_NEWS_DATABASE_ID}/query", payload)
-    results = data.get("results", [])
+    results = []
+    cursor = None
+    while True:
+        if cursor:
+            payload["start_cursor"] = cursor
+        data = notion_request("POST", f"/databases/{NOTION_NEWS_DATABASE_ID}/query", payload)
+        results.extend(data.get("results", []))
+        if not data.get("has_more"):
+            break
+        cursor = data.get("next_cursor")
 
     articles = []
     for page in results:

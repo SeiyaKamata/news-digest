@@ -126,9 +126,12 @@ def main():
             print(f"  ERROR: {path.name}: {e}", file=sys.stderr)
             errors += 1
 
-    # 記事ファイルを削除
-    for path in article_files:
-        path.unlink()
+    # 成功した記事ファイルのみ削除（エラー分は再送できるよう残す）
+    if errors == 0:
+        for path in article_files:
+            path.unlink()
+    else:
+        print(f"WARNING: {errors} errors occurred. Article files not deleted.", file=sys.stderr)
 
     print(f"\nDone. {done} saved, {skipped} skipped, {errors} errors")
 
