@@ -1,63 +1,69 @@
 # ニュース自動要約システム
 
-RSSで収集したニュース記事をClaude Codeが自動要約し、Obsidianで閲覧できるようにするシステム。
+RSSで収集したニュース記事をGemini APIで自動要約し、NotionのNewsデータベースに保存するシステム。
 
 ## システム構成
 
 ```
 GitHub Actions (cron: JST 6:00)
   → feeds.yaml からRSSを取得
-  → articles/YYYY-MM-DD/ にmarkdownとしてコミット
+  → Gemini APIで各記事を要約
+  → Notionのnewsデータベースに一記事一ページで保存
 
-Claude Code Remote Tasks (JST 7:00)
-  → articles/YYYY-MM-DD/ の未処理記事を取得
-  → 各記事URLをfetchして要約
-  → read_ / skim_ プレフィックスで振り分け
-  → articles/YYYY-MM-DD/README.md に日次ダイジェストを作成
-  → コミット
-
-Obsidian + Obsidian Git plugin
-  → GitHubリポジトリをvaultとして同期
-  → 記事を読む・感想・メモを書く
+Claude Code Remote Tasks
+  → newsデータベースから今日の記事を取得
+  → 精読/流し読みに分類
+  → 日報ページにニュースダイジェストを追記
 ```
 
 ## リポジトリ構造
 
 ```
 /
-├── feeds.yaml                          # RSSフィードリスト
-├── CLAUDE.md                           # Claude Codeへの指示
+├── feeds.yaml                              # RSSフィードリスト
+├── CLAUDE.md                               # Claude Code Remote Tasks の指示書
+├── requirements.txt                        # Python依存パッケージ
 ├── scripts/
-│   └── fetch_rss.py                    # RSSフェッチスクリプト
-├── .github/
-│   └── workflows/
-│       └── fetch-rss.yml              # GitHub Actionsワークフロー
-└── articles/
-    └── 2026-04-08/
-        ├── README.md                   # 日次ダイジェスト
-        ├── 001_read_タイトル.md        # 精読記事
-        └── 002_skim_タイトル.md        # 流し読み記事
+│   ├── fetch_rss.py                        # RSSフェッチスクリプト
+│   ├── summarize.py                        # Gemini APIで記事を要約
+│   └── save_to_notion.py                   # NotionのNewsデータベースに保存
+├── skills/news-digest/scripts/
+│   ├── fetch_news.py                       # newsDBから今日の記事取得
+│   ├── append_digest.py                    # 日報ページにダイジェストを追記
+│   └── find_daily.py                       # 日報ページID取得
+└── .github/
+    └── workflows/
+        └── fetch-rss.yml                   # GitHub Actionsワークフロー
 ```
 
 ## セットアップ
 
-### 1. リポジトリをプライベートで作成
+### 1. GitHub Secrets を設定
 
-このリポジトリをGitHubにpushする。
+リポジトリの Settings → Secrets and variables → Actions に以下を追加：
 
-### 2. Claude Code Remote Tasks を設定
+| Secret名 | 内容 |
+|---|---|
+| `GEMINI_API_KEY` | Google AI Studio のAPIキー |
+| `NOTION_TOKEN` | Notion Integration Token |
+| `NOTION_NEWS_DATABASE_ID` | NotionのNewsデータベースID |
 
-1. [claude.ai/code](https://claude.ai/code) にアクセス
-2. Remote Tasks を新規作成
-3. GitHubリポジトリを接続
-4. スケジュール: `0 22 * * *`（UTC）= JST 7:00
-5. 指示: `CLAUDE.md の指示に従って今日の記事を処理してください`
+### 2. Claude Code Remote Tasks の設定
 
-### 3. Obsidian を設定
+Remote Tasksに以下の環境変数（Secrets）を追加：
 
-1. Obsidian Git プラグインをインストール
-2. このGitHubリポジトリをvaultとして設定
-3. 自動pull間隔: 5分
+| Secret名 | 内容 |
+|---|---|
+| `NOTION_TOKEN` | Notion Integration Token |
+| `NOTION_NEWS_DATABASE_ID` | NotionのNewsデータベースID |
+| `NOTION_DWM_DATABASE_ID` | NotionのDWMデータベースID（日報） |
+
+### 3. Notion Integration の設定
+
+1. [notion.so/my-integrations](https://www.notion.so/my-integrations) でIntegrationを作成
+2. 以下のデータベースにIntegrationを接続：
+   - Newsデータベース
+   - DWMデータベース（日報）
 
 ### 4. RSSフィードのカスタマイズ
 

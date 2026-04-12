@@ -1,100 +1,68 @@
 # ニュース自動要約システム - Claude Code指示書
 
 ## あなたの役割
-このリポジトリの `articles/` ディレクトリにある未処理のニュース記事を要約し、日次ダイジェストを作成する。
 
-## 処理対象の判定
-
-- **未処理**：`articles/YYYY-MM-DD/` にファイルが存在するが `README.md` がない
-- **処理済み**：`articles/YYYY-MM-DD/README.md` が存在する
-
-今日の日付のディレクトリ（`articles/YYYY-MM-DD/`）を対象とする。`README.md` が既に存在する場合は何もしない。
+Notionのnewsデータベースから今日の記事を取得し、精読/流し読みに分類して日報ページにニュースダイジェストを追記する。
 
 ## 処理手順
 
-1. `articles/今日の日付/` 内の `_raw_` プレフィックスのファイル一覧を取得する
-2. 各ファイルのフロントマターからURLを読み取り、記事本文をfetchする
-3. 記事を読んで重要度・実用性を判断し、`read_` か `skim_` に振り分ける
-4. 振り分けに従って記事markdownを生成・保存する
-5. 日次ダイジェスト `README.md` を生成する
-6. 全ファイルをコミットする
+### Step 1: 今日の記事を取得
 
-## 振り分け基準
+以下のスクリプトを実行して今日の記事をJSON形式で取得する：
 
-### read_（精読）
-以下のいずれかに該当するもの：
+```bash
+python skills/news-digest/scripts/fetch_news.py
+```
+
+記事が0件の場合は処理を終了する。
+
+### Step 2: 精読/流し読みに分類
+
+取得した各記事のsummaryをもとに以下の基準で分類する。
+
+**精読：**
 - エンジニアリング・セキュリティに直接関係する重要な技術情報
 - 政治・経済の大きな動向（市場・政策に影響するもの）
 - 自分の業務・学習に実用的に役立つ情報
 
-### skim_（流し読み）
+**流し読み：**
 - 上記に該当しない一般的なニュース
 - トレンド情報・話題
 
-## ファイル命名規則
+精読記事のsummaryは1〜2文に圧縮する。流し読み記事はtitleとurlのみ保持する。
 
-```
-articles/YYYY-MM-DD/
-  001_read_<title-slug>.md
-  002_skim_<title-slug>.md
-  ...
-  README.md
+### Step 3: 今日の日報ページIDを取得
+
+```bash
+python skills/news-digest/scripts/find_daily.py
 ```
 
-- 連番は3桁ゼロ埋め（001, 002, ...）
-- `<title-slug>` は記事タイトルを英数字とアンダースコアのみにしたもの（日本語はローマ字不要、省略可）
-- 元の `_raw_` ファイルは削除する
+出力されたURLの末尾がページID（ハイフンなし32文字）。
 
-## 記事markdownの形式
+### Step 4: 日報ページにダイジェストを追記
 
-### read_ ファイル
+以下の形式のJSONをstdinに渡してスクリプトを実行する：
 
-```markdown
----
-title: 記事タイトル
-url: https://...
-date: YYYY-MM-DD
----
-
-## 要約
-- 何が起きたか
-- なぜ重要か
-- 補足情報
-
-## メモ
-（ここに感想を書く）
+```bash
+echo '<json>' | python skills/news-digest/scripts/append_digest.py <page_id>
 ```
 
-### skim_ ファイル
-
-```markdown
----
-title: 記事タイトル
-url: https://...
-date: YYYY-MM-DD
----
-
-## 要約
-- 何が起きたか
-- なぜ重要か
+JSONの形式：
+```json
+{
+  "read": [
+    {"title": "タイトル", "url": "https://...", "summary": "要約1〜2文"}
+  ],
+  "skim": [
+    {"title": "タイトル", "url": "https://..."}
+  ]
+}
 ```
 
-## 日次ダイジェスト（README.md）の形式
+## 環境変数
 
-```markdown
-# YYYY-MM-DD
+以下の環境変数が必要（GitHub Secretsから渡される）：
 
-## 🔴 精読
-- [記事タイトル](001_read_title.md) — ワンライン要約
-
-## ⚪ 流し読み
-- [記事タイトル](002_skim_title.md) — ワンライン要約
-```
-
-## コミットメッセージの形式
-
-```
-digest: YYYY-MM-DD (read: N, skim: M)
-```
-
-例：`digest: 2026-04-08 (read: 3, skim: 12)`
+- `NOTION_TOKEN` - Notion Integration Token
+- `NOTION_NEWS_DATABASE_ID` - newsデータベースID
+- `NOTION_DWM_DATABASE_ID` - DWMデータベースID
