@@ -12,6 +12,8 @@ from pathlib import Path
 import yaml
 import feedparser
 
+HOURS_BACK = 24
+
 JST = timezone(timedelta(hours=9))
 
 
@@ -60,45 +62,53 @@ def fetch_feed(feed_url: str) -> tuple[str, feedparser.FeedParserDict | None]:
     return feed_url, feed
 
 
+def get_entry_published(entry) -> datetime | None:
+    if hasattr(entry, "published_parsed") and entry.published_parsed:
+        return datetime(*entry.published_parsed[:6], tzinfo=timezone.utc)
+    if hasattr(entry, "updated_parsed") and entry.updated_parsed:
+        return datetime(*entry.updated_parsed[:6], tzinfo=timezone.utc)
+    return None
+
+
 def fetch_all_feeds(feed_urls: list[str], date_dir: Path, today: str) -> int:
     existing_urls = load_existing_urls(date_dir)
-    counter_file = date_dir / ".counter"
-    try:
-        count = int(counter_file.read_text())
-    except FileNotFoundError:
-        count = 1
-
-    start = count
-    try:
-        with ThreadPoolExecutor(max_workers=8) as executor:
-            futures = {executor.submit(fetch_feed, url): url for url in feed_urls}
-            for future in as_completed(futures):
+    since = datetime.now(JST) - timedelta(hours=HOURS_BACK)
+    saved = 0
+    with ThreadPoolExecutor(max_workers=8) as executor:
+        futures = {executor.submit(fetch_feed, url): url for url in feed_urls}
+        for future in as_completed(futures):
+            try:
                 feed_url, feed = future.result()
-                if feed is None:
-                    print(f"  ERROR: {feed_url}", file=sys.stderr)
+            except Exception as e:
+                print(f"  ERROR: {futures[future]}: {e}", file=sys.stderr)
+                continue
+            if feed is None:
+                print(f"  ERROR: {feed_url}", file=sys.stderr)
+                continue
+
+            print(f"Fetched: {feed_url} ({len(feed.entries)} entries)")
+            for entry in feed.entries:
+                url = entry.get("link", "")
+                title = entry.get("title", "no title")
+                description = entry.get("summary", "")
+
+                published = get_entry_published(entry)
+                if published and published < since:
                     continue
 
-                print(f"Fetched: {feed_url} ({len(feed.entries)} entries)")
-                for entry in feed.entries:
-                    url = entry.get("link", "")
-                    title = entry.get("title", "no title")
-                    description = entry.get("summary", "")
+                if not url or url in existing_urls:
+                    continue
 
-                    if not url or url in existing_urls:
-                        continue
+                slug = slugify(title)
+                filename = f"{slug}.md"
+                (date_dir / filename).write_text(
+                    make_raw_markdown(title, url, today, description)
+                )
+                existing_urls.add(url)
+                print(f"  SAVED: {filename}")
+                saved += 1
 
-                    slug = slugify(title)
-                    filename = f"{count:03d}_raw_{slug}.md"
-                    (date_dir / filename).write_text(
-                        make_raw_markdown(title, url, today, description)
-                    )
-                    existing_urls.add(url)
-                    print(f"  SAVED: {filename}")
-                    count += 1
-    finally:
-        counter_file.write_text(str(count))
-
-    return count - start
+    return saved
 
 
 def main():
