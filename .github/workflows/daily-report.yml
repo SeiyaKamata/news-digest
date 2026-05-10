@@ -1,0 +1,33 @@
+name: Daily Report
+
+on:
+  schedule:
+    # 毎朝 JST 1:00 (UTC 16:00 前日)
+    - cron: "0 16 * * *"
+  workflow_dispatch:
+
+jobs:
+  report:
+    permissions:
+      contents: read
+    concurrency:
+      group: daily-report
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Create daily report
+        env:
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_DWM_DATABASE_ID: ${{ secrets.NOTION_DWM_DATABASE_ID }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_USERNAME: ${{ secrets.GH_USERNAME }}
+        run: python scripts/daily_report.py
