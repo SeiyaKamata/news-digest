@@ -42,7 +42,7 @@ def notion_request(method: str, path: str, payload: dict | None = None) -> dict:
         sys.exit(1)
 
 
-def parse_article(path: Path) -> dict | None:
+def parse_article(path: Path) -> tuple[dict, str] | None:
     text = path.read_text()
     lines = text.splitlines()
     if not lines or lines[0].strip() != "---":
@@ -57,7 +57,8 @@ def parse_article(path: Path) -> dict | None:
         return None
     if not isinstance(fm, dict):
         return None
-    return fm
+    body = "\n".join(lines[end + 1:]).strip()
+    return fm, body
 
 
 def create_news_page(title: str, url: str, summary: str) -> None:
@@ -103,18 +104,19 @@ def main():
 
     done, skipped, errors = 0, 0, 0
     for path in article_files:
-        fm = parse_article(path)
-        if not fm:
+        parsed = parse_article(path)
+        if not parsed:
             print(f"  SKIP (parse error): {path.name}", file=sys.stderr)
             skipped += 1
             continue
 
+        fm, body = parsed
         title = fm.get("title", "")
         url = fm.get("url", "")
-        summary = fm.get("ai_summary", "")
+        summary = fm.get("ai_summary") or body
 
         if not summary:
-            print(f"  SKIP (no ai_summary): {path.name}")
+            print(f"  SKIP (no content): {path.name}")
             skipped += 1
             continue
 
