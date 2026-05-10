@@ -20,8 +20,8 @@ JST = timezone(timedelta(hours=9))
 def get_yesterday_range() -> tuple[str, str, str]:
     yesterday = datetime.now(JST) - timedelta(days=1)
     date_str = yesterday.strftime("%Y-%m-%d")
-    since = f"{date_str}T00:00:00+09:00"
-    until = f"{date_str}T23:59:59+09:00"
+    since = yesterday.replace(hour=0, minute=0, second=0, microsecond=0).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    until = yesterday.replace(hour=23, minute=59, second=59, microsecond=0).astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     return date_str, since, until
 
 
