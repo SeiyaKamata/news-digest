@@ -32,7 +32,7 @@ news-digest/
 
 | Secret名 | 内容 |
 |---|---|
-| `GEMINI_API_KEY` | Google AI Studio のAPIキー |
+| `GEMINI_API_KEY` | [Google AI Studio](https://aistudio.google.com/) でAPIキーを発行して設定 |
 | `NOTION_TOKEN` | Notion Integration Token |
 | `NOTION_NEWS_DATABASE_ID` | NotionのNewsデータベースID |
 
