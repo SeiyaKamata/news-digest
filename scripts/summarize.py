@@ -53,7 +53,7 @@ def write_with_summary(path: Path, fm: dict, body: str) -> None:
 def summarize(client: genai.Client, title: str, description: str) -> str:
     prompt = PROMPT_TEMPLATE.format(title=title, description=description)
     response = client.models.generate_content(
-        model="gemini-2.0-flash",
+        model="gemini-2.5-flash",
         contents=prompt,
     )
     return response.text.strip()
