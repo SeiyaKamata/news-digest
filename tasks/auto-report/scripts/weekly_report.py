@@ -19,12 +19,12 @@ JST = timezone(timedelta(hours=9))
 
 def get_last_week_range() -> tuple[str, str, str, str]:
     """先週月曜〜日曜の範囲を返す。手動実行日に依存せず、暦上の先週を返す。"""
-    today = datetime.now(JST).date()
+    today = datetime.now(JST)
     this_monday = today - timedelta(days=today.weekday())
-    last_monday = this_monday - timedelta(days=7)
-    last_sunday = this_monday - timedelta(days=1)
-    since = last_monday.strftime("%Y-%m-%dT00:00:00+09:00")
-    until = last_sunday.strftime("%Y-%m-%dT23:59:59+09:00")
+    last_monday = (this_monday - timedelta(days=7)).replace(hour=0, minute=0, second=0, microsecond=0)
+    last_sunday = (this_monday - timedelta(days=1)).replace(hour=23, minute=59, second=59, microsecond=0)
+    since = last_monday.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    until = last_sunday.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     week_label = last_monday.strftime("%G-W%V")
     start_date = last_monday.strftime("%Y-%m-%d")
     return week_label, since, until, start_date

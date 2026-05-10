@@ -20,12 +20,12 @@ JST = timezone(timedelta(hours=9))
 def get_last_month_range() -> tuple[str, str, str, str]:
     """先月1日〜末日の範囲を返す。実行日（1日）の前月。"""
     today = datetime.now(JST)
-    first_of_this_month = today.replace(day=1)
-    last_of_last_month = first_of_this_month - timedelta(days=1)
-    first_of_last_month = last_of_last_month.replace(day=1)
+    first_of_this_month = today.replace(day=1, hour=0, minute=0, second=0, microsecond=0)
+    last_of_last_month = (first_of_this_month - timedelta(days=1)).replace(hour=23, minute=59, second=59)
+    first_of_last_month = last_of_last_month.replace(day=1, hour=0, minute=0, second=0)
 
-    since = first_of_last_month.strftime("%Y-%m-%dT00:00:00+09:00")
-    until = last_of_last_month.strftime("%Y-%m-%dT23:59:59+09:00")
+    since = first_of_last_month.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    until = last_of_last_month.astimezone(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     month_label = first_of_last_month.strftime("%Y-%m")
     start_date = first_of_last_month.strftime("%Y-%m-%d")
     return month_label, since, until, start_date
