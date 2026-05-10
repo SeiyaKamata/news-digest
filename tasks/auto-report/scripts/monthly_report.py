@@ -8,7 +8,7 @@ import os
 import sys
 from datetime import datetime, timedelta, timezone
 
-sys.path.insert(0, os.path.dirname(__file__))
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "lib"))
 
 from github.repos import get_commits_in_range
 from notion.pages import append_blocks, build_report_blocks, get_or_create_page, get_pages_in_range

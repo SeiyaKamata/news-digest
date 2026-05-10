@@ -26,15 +26,15 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Fetch RSS feeds
-        run: python scripts/fetch_rss.py
+        run: python tasks/news-digest/scripts/fetch_rss.py
 
       - name: Summarize articles
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python scripts/summarize.py
+        run: python tasks/news-digest/scripts/summarize.py
 
       - name: Save to Notion
         env:
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
           NOTION_NEWS_DATABASE_ID: ${{ secrets.NOTION_NEWS_DATABASE_ID }}
-        run: python scripts/save_to_notion.py
+        run: python tasks/news-digest/scripts/save_to_notion.py

@@ -30,4 +30,4 @@ jobs:
           NOTION_DWM_DATABASE_ID: ${{ secrets.NOTION_DWM_DATABASE_ID }}
           GH_TOKEN: ${{ secrets.GH_PAT }}
           GH_USERNAME: ${{ secrets.GH_USERNAME }}
-        run: python scripts/monthly_report.py
+        run: python tasks/auto-report/scripts/monthly_report.py
