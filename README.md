@@ -1,73 +1,87 @@
-# ニュース自動要約システム
+# daily-automations
 
-RSSで収集したニュース記事をGemini APIで自動要約し、NotionのNewsデータベースに保存するシステム。
+Notionを中心とした日次自動化タスクをまとめたリポジトリ。
 
-## システム構成
+## タスク一覧
+
+### news-digest
+
+RSSで収集したニュース記事をGemini APIで自動要約し、NotionのNewsデータベースに保存する。
 
 ```
 GitHub Actions (cron: JST 6:00)
   → feeds.yaml からRSSを取得
-  → Gemini APIで各記事を要約
+  → Gemini APIで各記事を要約（失敗した場合はdescriptionをそのまま保存）
   → Notionのnewsデータベースに一記事一ページで保存
 
-Claude Code Remote Tasks
+Claude Code
   → newsデータベースから今日の記事を取得
   → 精読/流し読みに分類
   → 日報ページにニュースダイジェストを追記
+```
+
+### auto-report
+
+GitHubのコミット履歴とNotionの作成ページをDWMデータベースの日報/週次/月次ページに書き込む。
+
+```
+GitHub Actions
+  daily  (cron: JST 1:00)   → 前日のコミット・Notionページを日報に追記
+  weekly (cron: JST 月6:00) → 先週のコミット・Notionページを週次ページに追記
+  monthly(cron: JST 1日6:00)→ 先月のコミット・Notionページを月次ページに追記
 ```
 
 ## リポジトリ構造
 
 ```
 /
-├── feeds.yaml                              # RSSフィードリスト
-├── CLAUDE.md                               # Claude Code Remote Tasks の指示書
-├── requirements.txt                        # Python依存パッケージ
-├── scripts/
-│   ├── fetch_rss.py                        # RSSフェッチスクリプト
-│   ├── summarize.py                        # Gemini APIで記事を要約
-│   └── save_to_notion.py                   # NotionのNewsデータベースに保存
-├── skills/news-digest/scripts/
-│   ├── fetch_news.py                       # newsDBから今日の記事取得
-│   ├── append_digest.py                    # 日報ページにダイジェストを追記
-│   └── find_daily.py                       # 日報ページID取得
-└── .github/
-    └── workflows/
-        └── fetch-rss.yml                   # GitHub Actionsワークフロー
+├── tasks/
+│   ├── news-digest/
+│   │   ├── feeds.yaml                  # RSSフィードリスト
+│   │   └── scripts/
+│   │       ├── fetch_rss.py            # RSSフェッチ
+│   │       ├── summarize.py            # Gemini APIで記事を要約
+│   │       └── save_to_notion.py       # NotionのNewsデータベースに保存
+│   └── auto-report/
+│       ├── scripts/
+│       │   ├── daily_report.py
+│       │   ├── weekly_report.py
+│       │   └── monthly_report.py
+│       └── lib/
+│           ├── notion/                 # Notion APIクライアント
+│           └── github/                 # GitHub APIクライアント
+├── .claude/skills/news-digest/         # Claude Code スキル
+├── requirements.txt
+└── .github/workflows/
+    ├── fetch-rss.yml
+    ├── daily-report.yml
+    ├── weekly-report.yml
+    └── monthly-report.yml
 ```
 
 ## セットアップ
 
-### 1. GitHub Secrets を設定
+### GitHub Secrets
 
-リポジトリの Settings → Secrets and variables → Actions に以下を追加：
-
-| Secret名 | 内容 |
+| Secret名 | 用途 |
 |---|---|
-| `GEMINI_API_KEY` | Google AI Studio のAPIキー |
+| `GEMINI_API_KEY` | Google AI Studio のAPIキー（news-digest） |
 | `NOTION_TOKEN` | Notion Integration Token |
 | `NOTION_NEWS_DATABASE_ID` | NotionのNewsデータベースID |
+| `NOTION_DWM_DATABASE_ID` | NotionのDWMデータベースID（日報/週次/月次） |
+| `GH_PAT` | GitHub Personal Access Token（auto-report） |
+| `GH_USERNAME` | GitHubユーザー名（auto-report） |
 
-### 2. Claude Code Remote Tasks の設定
-
-Remote Tasksに以下の環境変数（Secrets）を追加：
-
-| Secret名 | 内容 |
-|---|---|
-| `NOTION_TOKEN` | Notion Integration Token |
-| `NOTION_NEWS_DATABASE_ID` | NotionのNewsデータベースID |
-| `NOTION_DWM_DATABASE_ID` | NotionのDWMデータベースID（日報） |
-
-### 3. Notion Integration の設定
+### Notion Integration の設定
 
 1. [notion.so/my-integrations](https://www.notion.so/my-integrations) でIntegrationを作成
 2. 以下のデータベースにIntegrationを接続：
    - Newsデータベース
-   - DWMデータベース（日報）
+   - DWMデータベース（日報/週次/月次）
 
-### 4. RSSフィードのカスタマイズ
+### RSSフィードのカスタマイズ
 
-`feeds.yaml` を編集してフィードを追加・削除する。
+`tasks/news-digest/feeds.yaml` を編集する。
 
 ```yaml
 feeds:
