@@ -57,15 +57,14 @@ def summarize(client: genai.Client, title: str, description: str) -> str:
     for attempt in range(3):
         try:
             response = client.models.generate_content(
-                model="gemini-2.5-flash",
+                model="gemini-3.1-flash-lite",
                 contents=prompt,
             )
             return response.text.strip()
         except genai_errors.ClientError as e:
             if e.code == 429 and attempt < 2:
-                wait = 60 * (attempt + 1)
-                print(f"  rate limited, waiting {wait}s...", file=sys.stderr)
-                time.sleep(wait)
+                print(f"  rate limited, waiting 60s...", file=sys.stderr)
+                time.sleep(60)
             else:
                 raise
 
