@@ -13,7 +13,7 @@ def get_pages_in_range(since: str, until: str) -> list[dict]:
     while has_more:
         payload: dict = {
             "filter": {"value": "page", "property": "object"},
-            "sort": {"direction": "descending", "timestamp": "created_time"},
+            "sort": {"direction": "descending", "timestamp": "last_edited_time"},
             "page_size": 100,
         }
         if cursor:
